@@ -6,6 +6,8 @@ its risk bands are condition anomaly indicators, not downtime probabilities.
 """
 
 from pathlib import Path
+from io import BytesIO
+import re
 
 import numpy as np
 import pandas as pd
@@ -29,23 +31,58 @@ SENSOR_LABELS = {
     "uptime_percent": "Uptime (%)",
 }
 FEATURES = SENSORS + [f"delta_{col}" for col in SENSORS]
+REQUIRED_COLUMNS = ["asset_id", "observed_at", *SENSORS]
+OPTIONAL_COLUMNS = ["asset_name", "line", "operating_state"]
+COLUMN_TITLES = {
+    "asset_id": "Asset ID",
+    "observed_at": "Timestamp",
+    "temperature_c": "Temperature (°C)",
+    "vibration_mm_s": "Vibration (mm/s)",
+    "pressure_kpa": "Pressure (kPa)",
+    "current_a": "Current (A)",
+    "rpm": "Engine speed (RPM)",
+    "uptime_percent": "Uptime (%)",
+}
+COLUMN_ALIASES = {
+    "asset_id": {"asset", "machine_id", "equipment_id", "machine", "equipment"},
+    "observed_at": {"timestamp", "datetime", "date_time", "time", "date"},
+    "temperature_c": {"temperature", "temp", "temp_c", "temperature_c"},
+    "vibration_mm_s": {"vibration", "vibration_mm_s", "vibration_mm_sec"},
+    "pressure_kpa": {"pressure", "pressure_kpa"},
+    "current_a": {"current", "amps", "current_a", "current_amps"},
+    "rpm": {"rpm", "engine_rpm", "speed_rpm"},
+    "uptime_percent": {"uptime", "uptime_pct", "uptime_percent", "availability_percent"},
+}
 COLORS = {"Low": "#18785E", "Watch": "#D38B26", "High": "#C84E42"}
 
 st.set_page_config(page_title="Smart Production Downtime Prediction App", page_icon="⚙️", layout="wide")
 
 
-@st.cache_data(show_spinner="Training anomaly detection model on the telemetry CSV…")
-def load_train_and_score(path_text: str, modified_time: float):
-    """Load supplied telemetry, train an unsupervised ML model, and score samples."""
-    frame = pd.read_csv(path_text)
-    required = {"asset_id", "asset_name", "line", "observed_at", "operating_state", *SENSORS}
+@st.cache_data(show_spinner="Training anomaly detection model on your telemetry…")
+def load_train_and_score(csv_bytes: bytes, column_mapping: tuple[tuple[str, str], ...]):
+    """Normalize a telemetry CSV, fit an unsupervised model, and score its rows."""
+    frame = pd.read_csv(BytesIO(csv_bytes), low_memory=False)
+    mapping = dict(column_mapping)
+    rename = {source: target for target, source in mapping.items() if source != target}
+    frame = frame.rename(columns=rename)
+    required = set(REQUIRED_COLUMNS)
     missing = sorted(required - set(frame.columns))
     if missing:
         raise ValueError("CSV is missing required columns: " + ", ".join(missing))
+    frame["asset_id"] = frame["asset_id"].astype("string").str.strip()
     frame["observed_at"] = pd.to_datetime(frame["observed_at"], utc=True, errors="coerce")
     for col in SENSORS:
         frame[col] = pd.to_numeric(frame[col], errors="coerce")
     frame = frame.dropna(subset=["asset_id", "observed_at", *SENSORS]).copy()
+    frame = frame[frame["asset_id"] != ""].copy()
+    if "asset_name" not in frame:
+        frame["asset_name"] = frame["asset_id"]
+    if "line" not in frame:
+        frame["line"] = "Unassigned"
+    if "operating_state" not in frame:
+        frame["operating_state"] = "Not supplied"
+    for col in OPTIONAL_COLUMNS:
+        frame[col] = frame[col].fillna("Not supplied").astype(str)
     frame = frame.sort_values(["asset_id", "observed_at"]).reset_index(drop=True)
     # Short-term change features let the detector notice abrupt movement as well
     # as unusual absolute values. Grouping avoids differences between assets.
@@ -68,6 +105,25 @@ def load_train_and_score(path_text: str, modified_time: float):
         default="Low",
     )
     return frame, model, watch_cut, high_cut
+
+
+def normalize_header(value: str) -> str:
+    return re.sub(r"[^a-z0-9]+", "_", str(value).strip().lower()).strip("_")
+
+
+def suggest_column(target: str, headers: list[str]) -> str | None:
+    normalized = {normalize_header(header): header for header in headers}
+    if target in normalized:
+        return normalized[target]
+    for alias in COLUMN_ALIASES.get(target, set()):
+        if alias in normalized:
+            return normalized[alias]
+    return None
+
+
+def csv_template() -> bytes:
+    columns = [*REQUIRED_COLUMNS, *OPTIONAL_COLUMNS]
+    return pd.DataFrame(columns=columns).to_csv(index=False).encode("utf-8")
 
 
 def style_app():
@@ -159,30 +215,97 @@ def main():
         st.divider()
         st.markdown("**MODEL**")
         st.caption("Isolation Forest · unsupervised anomaly detection")
-        st.markdown("**DATASET**")
-        st.caption("Synthetic underground mining telemetry")
+        st.divider()
+        st.markdown("**TRAIN WITH YOUR DATA**")
+        uploaded_file = st.file_uploader(
+            "Upload a telemetry CSV",
+            type=["csv"],
+            help="Required: asset ID, timestamp, and the six sensor readings. You can map differently named columns after uploading.",
+        )
+        st.download_button(
+            "Download CSV template",
+            data=csv_template(),
+            file_name="telemetry_template.csv",
+            mime="text/csv",
+            use_container_width=True,
+        )
+        st.caption("Use °C, mm/s, kPa, A, RPM and percent. Include at least 20 valid rows. Optional: asset name, line and operating state.")
+        st.caption("Uploads are processed by this hosted app and are not added to the GitHub repository.")
 
-    if not DATA_PATH.exists():
+        uploaded_bytes = None
+        source_name = "Synthetic underground mining telemetry"
+        is_uploaded = uploaded_file is not None
+        mapping = tuple((column, column) for column in REQUIRED_COLUMNS)
+        if is_uploaded:
+            uploaded_bytes = uploaded_file.getvalue()
+            source_name = uploaded_file.name
+            try:
+                headers = [str(col) for col in pd.read_csv(BytesIO(uploaded_bytes), nrows=0).columns]
+            except Exception as exc:
+                st.error(f"Could not read the uploaded CSV header: {exc}")
+                st.stop()
+
+            guesses = {target: suggest_column(target, headers) for target in REQUIRED_COLUMNS}
+            needs_mapping = any(value is None for value in guesses.values())
+            if needs_mapping:
+                with st.expander("Map your CSV columns", expanded=True):
+                    st.caption("Choose the source column for each required model input.")
+                    options = ["— Select a column —", *headers]
+                    choices = {}
+                    for target in REQUIRED_COLUMNS:
+                        guess = guesses[target]
+                        default_index = options.index(guess) if guess in headers else 0
+                        choices[target] = st.selectbox(
+                            COLUMN_TITLES[target],
+                            options,
+                            index=default_index,
+                            key=f"column-map-{target}",
+                        )
+                    mapping = tuple((target, source) for target, source in choices.items() if source != options[0])
+                    if len(mapping) != len(REQUIRED_COLUMNS):
+                        st.warning("Map all required columns to train the model.")
+                        st.stop()
+                    if len({source for _, source in mapping}) != len(REQUIRED_COLUMNS):
+                        st.warning("Each required input must map to a different CSV column.")
+                        st.stop()
+            else:
+                mapping = tuple((target, guesses[target]) for target in REQUIRED_COLUMNS)
+                st.caption("Required columns detected automatically.")
+
+    if is_uploaded:
+        csv_bytes = uploaded_bytes
+    elif DATA_PATH.exists():
+        csv_bytes = DATA_PATH.read_bytes()
+    else:
         st.error(f"Dataset not found at `{DATA_PATH}`. Keep the `data` folder beside `app.py`.")
         st.stop()
     try:
-        data, model, watch_cut, high_cut = load_train_and_score(str(DATA_PATH), DATA_PATH.stat().st_mtime)
+        data, model, watch_cut, high_cut = load_train_and_score(csv_bytes, mapping)
     except Exception as exc:
         st.error(f"Could not train the model: {exc}")
         st.stop()
+    source_description = f"Uploaded dataset: {source_name}" if is_uploaded else "Demo dataset: synthetic underground mining telemetry"
 
     latest = data.sort_values("observed_at").groupby("asset_id", as_index=False).tail(1).copy()
     latest = latest.sort_values("Anomaly score", ascending=False)
     assets = sorted(latest["asset_id"].unique())
     if page == "Model & data notes":
-        st.markdown('<div class="eyebrow">MODEL CARD</div><div class="title">How this demo works</div>', unsafe_allow_html=True)
-        st.markdown('<div class="notice"><b>Downtime labels are not present.</b> Every source record is marked RUNNING. This app trains an unsupervised anomaly detector on the supplied sensor history. Its risk bands show unusual telemetry relative to this dataset; they are not probabilities that downtime will occur.</div>', unsafe_allow_html=True)
+        st.markdown('<div class="eyebrow">MODEL CARD</div><div class="title">Model & data notes</div>', unsafe_allow_html=True)
+        st.info(source_description)
+        st.markdown('<div class="notice"><b>Model scope:</b> The Isolation Forest trains on sensor readings and their within-asset changes. It is unsupervised and does not use downtime labels. Risk bands identify unusual readings relative to the selected dataset; they are not probabilities that downtime will occur.</div>', unsafe_allow_html=True)
         st.markdown("### Training details")
         st.write(f"The app trains a scikit-learn Isolation Forest on {len(data):,} telemetry rows from {data['asset_id'].nunique()} assets. Inputs include temperature, vibration, pressure, current, RPM, uptime, and within-asset sensor changes between readings.")
         st.write("The Watch and High bands mark the top 10% and top 3% of anomaly scores in the training data. This is a relative screening rule, not a validated maintenance threshold.")
         st.markdown("### Dataset quality summary")
         st.write(f"Time range: {data['observed_at'].min():%Y-%m-%d %H:%M UTC} to {data['observed_at'].max():%Y-%m-%d %H:%M UTC}. Recorded operating states: {', '.join(sorted(data['operating_state'].astype(str).unique()))}.")
-        st.write("The telemetry is synthetic, with five assets and fewer than one month of observations. Validate against real labeled downtime events before describing outputs as downtime predictions.")
+        if is_uploaded:
+            st.write("The uploaded dataset is used to retrain the anomaly detector for this session. The operating-state column, if provided, is displayed as context and is not treated as a downtime target.")
+        else:
+            st.write("The built-in telemetry is synthetic, with five assets and fewer than one month of observations. Validate against real labeled downtime events before describing outputs as downtime predictions.")
+        st.markdown("### CSV format")
+        st.write("Download the template from the sidebar. Required fields are asset ID, timestamp, and all six sensor columns. The optional fields `asset_name`, `line`, and `operating_state` add context to the dashboard.")
+        with st.expander("Required column names"):
+            st.code(", ".join(REQUIRED_COLUMNS), language="text")
         st.markdown("### Threshold comparison")
         thresholds = []
         for label, signal, threshold_col, comparator in [
@@ -194,7 +317,10 @@ def main():
             if threshold_col in data.columns:
                 breached = data[signal] <= data[threshold_col] if comparator == "below" else data[signal] >= data[threshold_col]
                 thresholds.append({"Check": label, "Threshold breaches": int(breached.sum())})
-        st.dataframe(pd.DataFrame(thresholds), hide_index=True, use_container_width=True)
+        if thresholds:
+            st.dataframe(pd.DataFrame(thresholds), hide_index=True, use_container_width=True)
+        else:
+            st.caption("No sensor warning-threshold columns were included in this dataset.")
         return
 
     if page == "Asset detail":
@@ -226,7 +352,11 @@ def main():
         return
 
     st.markdown('<div class="eyebrow">PLANT OPERATIONS / RELIABILITY</div><div class="title">Smart Production Downtime Prediction App</div><div class="subtitle">A clear view of equipment condition across the fleet.</div>', unsafe_allow_html=True)
-    st.markdown('<div class="notice"><b>Model scope:</b> This dataset has no downtime labels. The model ranks unusual sensor patterns for inspection; it does not estimate downtime probability.</div>', unsafe_allow_html=True)
+    if is_uploaded:
+        st.success(f"Custom dataset active: {source_name} · model trained on {len(data):,} valid readings across {data['asset_id'].nunique()} assets.")
+    else:
+        st.info("Demo mode · using the included synthetic telemetry CSV. Upload your own data from the sidebar to retrain.")
+    st.markdown('<div class="notice"><b>Model scope:</b> The anomaly model ranks unusual sensor patterns for inspection; it does not estimate downtime probability.</div>', unsafe_allow_html=True)
     selected = st.multiselect("Filter assets", assets, default=assets, label_visibility="collapsed", placeholder="Filter assets")
     if not selected:
         st.info("Select at least one asset to display fleet condition.")
