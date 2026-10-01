@@ -1,0 +1,581 @@
+asset_id,asset_name,line,source_id,observed_at,temperature_c,vibration_mm_s,pressure_kpa,current_a,rpm,operating_state,uptime_percent,temperature_warning_c,temperature_critical_c,vibration_warning_mm_s,vibration_critical_mm_s,pressure_warning_kpa,pressure_critical_kpa,pressure_high_warning_kpa,pressure_high_critical_kpa
+HT-101,Underground Haul Truck 101,East decline,synthetic-offline-demo,2026-09-01T00:00:00Z,67.07,2.566,143.304,197.42,1558.2,RUNNING,91.8,85,105,4.0,7.0,110,90,180,210
+HT-101,Underground Haul Truck 101,East decline,synthetic-offline-demo,2026-09-01T06:00:00Z,67.316,2.579,143.014,198.17,1553.8,RUNNING,91.8,85,105,4.0,7.0,110,90,180,210
+HT-101,Underground Haul Truck 101,East decline,synthetic-offline-demo,2026-09-01T12:00:00Z,67.43,2.584,142.718,197.88,1547.5,RUNNING,91.8,85,105,4.0,7.0,110,90,180,210
+HT-101,Underground Haul Truck 101,East decline,synthetic-offline-demo,2026-09-01T18:00:00Z,67.374,2.584,142.557,196.67,1542.5,RUNNING,91.8,85,105,4.0,7.0,110,90,180,210
+HT-101,Underground Haul Truck 101,East decline,synthetic-offline-demo,2026-09-02T00:00:00Z,67.195,2.584,142.611,195.15,1541.1,RUNNING,91.8,85,105,4.0,7.0,110,90,180,210
+HT-101,Underground Haul Truck 101,East decline,synthetic-offline-demo,2026-09-02T06:00:00Z,67.0,2.591,142.853,194.03,1544.0,RUNNING,91.8,85,105,4.0,7.0,110,90,180,210
+HT-101,Underground Haul Truck 101,East decline,synthetic-offline-demo,2026-09-02T12:00:00Z,66.901,2.606,143.166,193.87,1549.8,RUNNING,91.8,85,105,4.0,7.0,110,90,180,210
+HT-101,Underground Haul Truck 101,East decline,synthetic-offline-demo,2026-09-02T18:00:00Z,66.966,2.628,143.398,194.73,1555.7,RUNNING,91.8,85,105,4.0,7.0,110,90,180,210
+HT-101,Underground Haul Truck 101,East decline,synthetic-offline-demo,2026-09-03T00:00:00Z,67.183,2.653,143.439,196.21,1558.9,RUNNING,91.8,85,105,4.0,7.0,110,90,180,210
+HT-101,Underground Haul Truck 101,East decline,synthetic-offline-demo,2026-09-03T06:00:00Z,67.466,2.673,143.267,197.59,1557.7,RUNNING,91.8,85,105,4.0,7.0,110,90,180,210
+HT-101,Underground Haul Truck 101,East decline,synthetic-offline-demo,2026-09-03T12:00:00Z,67.698,2.684,142.966,198.2,1552.9,RUNNING,91.8,85,105,4.0,7.0,110,90,180,210
+HT-101,Underground Haul Truck 101,East decline,synthetic-offline-demo,2026-09-03T18:00:00Z,67.786,2.688,142.682,197.74,1546.6,RUNNING,91.8,85,105,4.0,7.0,110,90,180,210
+HT-101,Underground Haul Truck 101,East decline,synthetic-offline-demo,2026-09-04T00:00:00Z,67.707,2.688,142.551,196.45,1542.0,RUNNING,91.8,85,105,4.0,7.0,110,90,180,210
+HT-101,Underground Haul Truck 101,East decline,synthetic-offline-demo,2026-09-04T06:00:00Z,67.518,2.689,142.638,194.94,1541.2,RUNNING,91.8,85,105,4.0,7.0,110,90,180,210
+HT-101,Underground Haul Truck 101,East decline,synthetic-offline-demo,2026-09-04T12:00:00Z,67.33,2.697,142.899,193.94,1544.7,RUNNING,91.8,85,105,4.0,7.0,110,90,180,210
+HT-101,Underground Haul Truck 101,East decline,synthetic-offline-demo,2026-09-04T18:00:00Z,67.254,2.713,143.209,193.94,1550.8,RUNNING,91.8,85,105,4.0,7.0,110,90,180,210
+HT-101,Underground Haul Truck 101,East decline,synthetic-offline-demo,2026-09-05T00:00:00Z,67.344,2.736,143.418,194.93,1556.4,RUNNING,91.8,85,105,4.0,7.0,110,90,180,210
+HT-101,Underground Haul Truck 101,East decline,synthetic-offline-demo,2026-09-05T06:00:00Z,67.578,2.76,143.425,196.44,1559.0,RUNNING,91.8,85,105,4.0,7.0,110,90,180,210
+HT-101,Underground Haul Truck 101,East decline,synthetic-offline-demo,2026-09-05T12:00:00Z,67.861,2.779,143.227,197.74,1557.2,RUNNING,91.8,85,105,4.0,7.0,110,90,180,210
+HT-101,Underground Haul Truck 101,East decline,synthetic-offline-demo,2026-09-05T18:00:00Z,68.076,2.789,142.919,198.2,1551.9,RUNNING,91.8,85,105,4.0,7.0,110,90,180,210
+HT-101,Underground Haul Truck 101,East decline,synthetic-offline-demo,2026-09-06T00:00:00Z,68.138,2.792,142.65,197.59,1545.7,RUNNING,91.8,85,105,4.0,7.0,110,90,180,210
+HT-101,Underground Haul Truck 101,East decline,synthetic-offline-demo,2026-09-06T06:00:00Z,68.037,2.791,142.55,196.22,1541.6,RUNNING,91.8,85,105,4.0,7.0,110,90,180,210
+HT-101,Underground Haul Truck 101,East decline,synthetic-offline-demo,2026-09-06T12:00:00Z,67.841,2.793,142.668,194.74,1541.5,RUNNING,91.8,85,105,4.0,7.0,110,90,180,210
+HT-101,Underground Haul Truck 101,East decline,synthetic-offline-demo,2026-09-06T18:00:00Z,67.664,2.802,142.946,193.87,1545.5,RUNNING,91.8,85,105,4.0,7.0,110,90,180,210
+HT-101,Underground Haul Truck 101,East decline,synthetic-offline-demo,2026-09-07T00:00:00Z,67.61,2.82,143.251,194.03,1551.7,RUNNING,91.8,85,105,4.0,7.0,110,90,180,210
+HT-101,Underground Haul Truck 101,East decline,synthetic-offline-demo,2026-09-07T06:00:00Z,67.726,2.844,143.434,195.14,1557.1,RUNNING,91.8,85,105,4.0,7.0,110,90,180,210
+HT-101,Underground Haul Truck 101,East decline,synthetic-offline-demo,2026-09-07T12:00:00Z,67.974,2.867,143.407,196.67,1559.0,RUNNING,91.8,85,105,4.0,7.0,110,90,180,210
+HT-101,Underground Haul Truck 101,East decline,synthetic-offline-demo,2026-09-07T18:00:00Z,68.254,2.885,143.184,197.88,1556.6,RUNNING,91.8,85,105,4.0,7.0,110,90,180,210
+HT-101,Underground Haul Truck 101,East decline,synthetic-offline-demo,2026-09-08T00:00:00Z,68.45,2.894,142.872,198.17,1551.0,RUNNING,91.8,85,105,4.0,7.0,110,90,180,210
+HT-101,Underground Haul Truck 101,East decline,synthetic-offline-demo,2026-09-08T06:00:00Z,68.486,2.896,142.622,197.42,1544.9,RUNNING,91.8,85,105,4.0,7.0,110,90,180,210
+HT-101,Underground Haul Truck 101,East decline,synthetic-offline-demo,2026-09-08T12:00:00Z,68.365,2.895,142.554,195.98,1541.3,RUNNING,91.8,85,105,4.0,7.0,110,90,180,210
+HT-101,Underground Haul Truck 101,East decline,synthetic-offline-demo,2026-09-08T18:00:00Z,68.164,2.898,142.702,194.55,1541.9,RUNNING,91.8,85,105,4.0,7.0,110,90,180,210
+HT-101,Underground Haul Truck 101,East decline,synthetic-offline-demo,2026-09-09T00:00:00Z,68.0,2.909,142.994,193.82,1546.4,RUNNING,91.8,85,105,4.0,7.0,110,90,180,210
+HT-101,Underground Haul Truck 101,East decline,synthetic-offline-demo,2026-09-09T06:00:00Z,67.971,2.928,143.289,194.15,1552.6,RUNNING,91.8,85,105,4.0,7.0,110,90,180,210
+HT-101,Underground Haul Truck 101,East decline,synthetic-offline-demo,2026-09-09T12:00:00Z,68.111,2.951,143.444,195.37,1557.6,RUNNING,91.8,85,105,4.0,7.0,110,90,180,210
+HT-101,Underground Haul Truck 101,East decline,synthetic-offline-demo,2026-09-09T18:00:00Z,68.371,2.974,143.384,196.89,1558.9,RUNNING,91.8,85,105,4.0,7.0,110,90,180,210
+HT-101,Underground Haul Truck 101,East decline,synthetic-offline-demo,2026-09-10T00:00:00Z,68.645,2.991,143.139,197.99,1555.9,RUNNING,91.8,85,105,4.0,7.0,110,90,180,210
+HT-101,Underground Haul Truck 101,East decline,synthetic-offline-demo,2026-09-10T06:00:00Z,68.82,2.999,142.827,198.12,1550.0,RUNNING,91.8,85,105,4.0,7.0,110,90,180,210
+HT-101,Underground Haul Truck 101,East decline,synthetic-offline-demo,2026-09-10T12:00:00Z,68.831,3.0,142.598,197.23,1544.2,RUNNING,91.8,85,105,4.0,7.0,110,90,180,210
+HT-101,Underground Haul Truck 101,East decline,synthetic-offline-demo,2026-09-10T18:00:00Z,68.691,2.999,142.563,195.75,1541.1,RUNNING,91.8,85,105,4.0,7.0,110,90,180,210
+HT-101,Underground Haul Truck 101,East decline,synthetic-offline-demo,2026-09-11T00:00:00Z,68.488,3.003,142.74,194.38,1542.4,RUNNING,91.8,85,105,4.0,7.0,110,90,180,210
+HT-101,Underground Haul Truck 101,East decline,synthetic-offline-demo,2026-09-11T06:00:00Z,68.339,3.015,143.042,193.8,1547.3,RUNNING,91.8,85,105,4.0,7.0,110,90,180,210
+HT-101,Underground Haul Truck 101,East decline,synthetic-offline-demo,2026-09-11T12:00:00Z,68.335,3.035,143.324,194.28,1553.5,RUNNING,91.8,85,105,4.0,7.0,110,90,180,210
+HT-101,Underground Haul Truck 101,East decline,synthetic-offline-demo,2026-09-11T18:00:00Z,68.498,3.059,143.449,195.59,1558.1,RUNNING,91.8,85,105,4.0,7.0,110,90,180,210
+HT-101,Underground Haul Truck 101,East decline,synthetic-offline-demo,2026-09-12T00:00:00Z,68.768,3.081,143.357,197.1,1558.7,RUNNING,91.8,85,105,4.0,7.0,110,90,180,210
+HT-101,Underground Haul Truck 101,East decline,synthetic-offline-demo,2026-09-12T06:00:00Z,69.034,3.097,143.093,198.08,1555.1,RUNNING,91.8,85,105,4.0,7.0,110,90,180,210
+HT-101,Underground Haul Truck 101,East decline,synthetic-offline-demo,2026-09-12T12:00:00Z,69.187,3.103,142.783,198.05,1549.1,RUNNING,91.8,85,105,4.0,7.0,110,90,180,210
+HT-101,Underground Haul Truck 101,East decline,synthetic-offline-demo,2026-09-12T18:00:00Z,69.172,3.104,142.579,197.03,1543.5,RUNNING,91.8,85,105,4.0,7.0,110,90,180,210
+HT-101,Underground Haul Truck 101,East decline,synthetic-offline-demo,2026-09-13T00:00:00Z,69.016,3.104,142.578,195.51,1541.0,RUNNING,91.8,85,105,4.0,7.0,110,90,180,210
+HT-101,Underground Haul Truck 101,East decline,synthetic-offline-demo,2026-09-13T06:00:00Z,68.813,3.108,142.781,194.23,1542.9,RUNNING,91.8,85,105,4.0,7.0,110,90,180,210
+HT-101,Underground Haul Truck 101,East decline,synthetic-offline-demo,2026-09-13T12:00:00Z,68.682,3.121,143.09,193.81,1548.2,RUNNING,91.8,85,105,4.0,7.0,110,90,180,210
+HT-101,Underground Haul Truck 101,East decline,synthetic-offline-demo,2026-09-13T18:00:00Z,68.704,3.142,143.356,194.44,1554.4,RUNNING,91.8,85,105,4.0,7.0,110,90,180,210
+HT-101,Underground Haul Truck 101,East decline,synthetic-offline-demo,2026-09-14T00:00:00Z,68.888,3.167,143.449,195.83,1558.5,RUNNING,91.8,85,105,4.0,7.0,110,90,180,210
+HT-101,Underground Haul Truck 101,East decline,synthetic-offline-demo,2026-09-14T06:00:00Z,69.166,3.188,143.326,197.3,1558.4,RUNNING,91.8,85,105,4.0,7.0,110,90,180,210
+HT-101,Underground Haul Truck 101,East decline,synthetic-offline-demo,2026-09-14T12:00:00Z,69.421,3.202,143.045,198.14,1554.3,RUNNING,91.8,85,105,4.0,7.0,110,90,180,210
+HT-101,Underground Haul Truck 101,East decline,synthetic-offline-demo,2026-09-14T18:00:00Z,69.55,3.208,142.742,197.95,1548.1,RUNNING,91.8,85,105,4.0,7.0,110,90,180,210
+HT-101,Underground Haul Truck 101,East decline,synthetic-offline-demo,2026-09-15T00:00:00Z,69.51,3.208,142.564,196.82,1542.8,RUNNING,91.8,85,105,4.0,7.0,110,90,180,210
+HT-101,Underground Haul Truck 101,East decline,synthetic-offline-demo,2026-09-15T06:00:00Z,69.339,3.208,142.596,195.29,1541.0,RUNNING,91.8,85,105,4.0,7.0,110,90,180,210
+HT-101,Underground Haul Truck 101,East decline,synthetic-offline-demo,2026-09-15T12:00:00Z,69.14,3.214,142.824,194.1,1543.5,RUNNING,91.8,85,105,4.0,7.0,110,90,180,210
+HT-101,Underground Haul Truck 101,East decline,synthetic-offline-demo,2026-09-15T18:00:00Z,69.028,3.228,143.136,193.83,1549.2,RUNNING,91.8,85,105,4.0,7.0,110,90,180,210
+HT-101,Underground Haul Truck 101,East decline,synthetic-offline-demo,2026-09-16T00:00:00Z,69.076,3.25,143.383,194.61,1555.2,RUNNING,91.8,85,105,4.0,7.0,110,90,180,210
+HT-101,Underground Haul Truck 101,East decline,synthetic-offline-demo,2026-09-16T06:00:00Z,69.281,3.274,143.444,196.06,1558.7,RUNNING,91.8,85,105,4.0,7.0,110,90,180,210
+HT-101,Underground Haul Truck 101,East decline,synthetic-offline-demo,2026-09-16T12:00:00Z,69.562,3.295,143.291,197.48,1558.0,RUNNING,91.8,85,105,4.0,7.0,110,90,180,210
+HT-101,Underground Haul Truck 101,East decline,synthetic-offline-demo,2026-09-16T18:00:00Z,69.804,3.308,142.997,198.18,1553.5,RUNNING,91.8,85,105,4.0,7.0,110,90,180,210
+HT-101,Underground Haul Truck 101,East decline,synthetic-offline-demo,2026-09-17T00:00:00Z,69.909,3.312,142.705,197.83,1547.2,RUNNING,91.8,85,105,4.0,7.0,110,90,180,210
+HT-101,Underground Haul Truck 101,East decline,synthetic-offline-demo,2026-09-17T06:00:00Z,69.845,3.311,142.555,196.6,1542.3,RUNNING,91.8,85,105,4.0,7.0,110,90,180,210
+HT-101,Underground Haul Truck 101,East decline,synthetic-offline-demo,2026-09-17T12:00:00Z,69.662,3.312,142.62,195.07,1541.1,RUNNING,91.8,85,105,4.0,7.0,110,90,180,210
+HT-101,Underground Haul Truck 101,East decline,synthetic-offline-demo,2026-09-17T18:00:00Z,69.469,3.319,142.869,194.0,1544.2,RUNNING,91.8,85,105,4.0,7.0,110,90,180,210
+HT-101,Underground Haul Truck 101,East decline,synthetic-offline-demo,2026-09-18T00:00:00Z,69.378,3.335,143.181,193.89,1550.1,RUNNING,91.8,85,105,4.0,7.0,110,90,180,210
+HT-101,Underground Haul Truck 101,East decline,synthetic-offline-demo,2026-09-18T06:00:00Z,69.452,3.358,143.406,194.8,1556.0,RUNNING,91.8,85,105,4.0,7.0,110,90,180,210
+HT-101,Underground Haul Truck 101,East decline,synthetic-offline-demo,2026-09-18T12:00:00Z,69.675,3.382,143.434,196.3,1558.9,RUNNING,91.8,85,105,4.0,7.0,110,90,180,210
+HT-101,Underground Haul Truck 101,East decline,synthetic-offline-demo,2026-09-18T18:00:00Z,69.958,3.401,143.253,197.64,1557.6,RUNNING,91.8,85,105,4.0,7.0,110,90,180,210
+HT-101,Underground Haul Truck 101,East decline,synthetic-offline-demo,2026-09-19T00:00:00Z,70.184,3.413,142.949,198.2,1552.5,RUNNING,91.8,85,105,4.0,7.0,110,90,180,210
+HT-101,Underground Haul Truck 101,East decline,synthetic-offline-demo,2026-09-19T06:00:00Z,70.263,3.416,142.67,197.69,1546.3,RUNNING,91.8,85,105,4.0,7.0,110,90,180,210
+HT-101,Underground Haul Truck 101,East decline,synthetic-offline-demo,2026-09-19T12:00:00Z,70.177,3.415,142.55,196.37,1541.8,RUNNING,91.8,85,105,4.0,7.0,110,90,180,210
+HT-101,Underground Haul Truck 101,East decline,synthetic-offline-demo,2026-09-19T18:00:00Z,69.985,3.417,142.648,194.86,1541.3,RUNNING,91.8,85,105,4.0,7.0,110,90,180,210
+HT-101,Underground Haul Truck 101,East decline,synthetic-offline-demo,2026-09-20T00:00:00Z,69.801,3.425,142.916,193.91,1545.0,RUNNING,91.8,85,105,4.0,7.0,110,90,180,210
+HT-101,Underground Haul Truck 101,East decline,synthetic-offline-demo,2026-09-20T06:00:00Z,69.732,3.442,143.224,193.97,1551.1,RUNNING,91.8,85,105,4.0,7.0,110,90,180,210
+HT-101,Underground Haul Truck 101,East decline,synthetic-offline-demo,2026-09-20T12:00:00Z,69.832,3.465,143.424,195.01,1556.6,RUNNING,91.8,85,105,4.0,7.0,110,90,180,210
+HT-101,Underground Haul Truck 101,East decline,synthetic-offline-demo,2026-09-20T18:00:00Z,70.07,3.489,143.419,196.53,1559.0,RUNNING,91.8,85,105,4.0,7.0,110,90,180,210
+HT-101,Underground Haul Truck 101,East decline,synthetic-offline-demo,2026-09-21T00:00:00Z,70.353,3.508,143.212,197.79,1557.0,RUNNING,91.8,85,105,4.0,7.0,110,90,180,210
+HT-101,Underground Haul Truck 101,East decline,synthetic-offline-demo,2026-09-21T06:00:00Z,70.561,3.518,142.902,198.19,1551.6,RUNNING,91.8,85,105,4.0,7.0,110,90,180,210
+HT-101,Underground Haul Truck 101,East decline,synthetic-offline-demo,2026-09-21T12:00:00Z,70.614,3.52,142.639,197.53,1545.5,RUNNING,91.8,85,105,4.0,7.0,110,90,180,210
+HT-101,Underground Haul Truck 101,East decline,synthetic-offline-demo,2026-09-21T18:00:00Z,70.506,3.519,142.551,196.13,1541.5,RUNNING,91.8,85,105,4.0,7.0,110,90,180,210
+HT-101,Underground Haul Truck 101,East decline,synthetic-offline-demo,2026-09-22T00:00:00Z,70.308,3.521,142.68,194.67,1541.6,RUNNING,91.8,85,105,4.0,7.0,110,90,180,210
+HT-101,Underground Haul Truck 101,East decline,synthetic-offline-demo,2026-09-22T06:00:00Z,70.135,3.531,142.963,193.85,1545.8,RUNNING,91.8,85,105,4.0,7.0,110,90,180,210
+HT-101,Underground Haul Truck 101,East decline,synthetic-offline-demo,2026-09-22T12:00:00Z,70.09,3.549,143.264,194.07,1552.0,RUNNING,91.8,85,105,4.0,7.0,110,90,180,210
+HT-101,Underground Haul Truck 101,East decline,synthetic-offline-demo,2026-09-22T18:00:00Z,70.214,3.573,143.438,195.22,1557.3,RUNNING,91.8,85,105,4.0,7.0,110,90,180,210
+HT-101,Underground Haul Truck 101,East decline,synthetic-offline-demo,2026-09-23T00:00:00Z,70.467,3.596,143.4,196.75,1559.0,RUNNING,91.8,85,105,4.0,7.0,110,90,180,210
+HT-101,Underground Haul Truck 101,East decline,synthetic-offline-demo,2026-09-23T06:00:00Z,70.745,3.614,143.168,197.92,1556.4,RUNNING,91.8,85,105,4.0,7.0,110,90,180,210
+HT-101,Underground Haul Truck 101,East decline,synthetic-offline-demo,2026-09-23T12:00:00Z,70.934,3.622,142.856,198.16,1550.7,RUNNING,91.8,85,105,4.0,7.0,110,90,180,210
+HT-101,Underground Haul Truck 101,East decline,synthetic-offline-demo,2026-09-23T18:00:00Z,70.961,3.624,142.613,197.35,1544.7,RUNNING,91.8,85,105,4.0,7.0,110,90,180,210
+HT-101,Underground Haul Truck 101,East decline,synthetic-offline-demo,2026-09-24T00:00:00Z,70.833,3.623,142.557,195.9,1541.2,RUNNING,91.8,85,105,4.0,7.0,110,90,180,210
+HT-101,Underground Haul Truck 101,East decline,synthetic-offline-demo,2026-09-24T06:00:00Z,70.631,3.626,142.715,194.49,1542.0,RUNNING,91.8,85,105,4.0,7.0,110,90,180,210
+HT-101,Underground Haul Truck 101,East decline,synthetic-offline-demo,2026-09-24T12:00:00Z,70.472,3.637,143.011,193.81,1546.7,RUNNING,91.8,85,105,4.0,7.0,110,90,180,210
+HT-101,Underground Haul Truck 101,East decline,synthetic-offline-demo,2026-09-24T18:00:00Z,70.452,3.657,143.302,194.19,1553.0,RUNNING,91.8,85,105,4.0,7.0,110,90,180,210
+HT-101,Underground Haul Truck 101,East decline,synthetic-offline-demo,2026-09-25T00:00:00Z,70.6,3.681,143.446,195.44,1557.8,RUNNING,91.8,85,105,4.0,7.0,110,90,180,210
+HT-101,Underground Haul Truck 101,East decline,synthetic-offline-demo,2026-09-25T06:00:00Z,70.864,3.703,143.375,196.97,1558.8,RUNNING,91.8,85,105,4.0,7.0,110,90,180,210
+HT-101,Underground Haul Truck 101,East decline,synthetic-offline-demo,2026-09-25T12:00:00Z,71.136,3.719,143.123,198.02,1555.6,RUNNING,91.8,85,105,4.0,7.0,110,90,180,210
+HT-101,Underground Haul Truck 101,East decline,synthetic-offline-demo,2026-09-25T18:00:00Z,71.303,3.727,142.811,198.1,1549.7,RUNNING,91.8,85,105,4.0,7.0,110,90,180,210
+HT-101,Underground Haul Truck 101,East decline,synthetic-offline-demo,2026-09-26T00:00:00Z,71.305,3.728,142.59,197.16,1543.9,RUNNING,91.8,85,105,4.0,7.0,110,90,180,210
+HT-101,Underground Haul Truck 101,East decline,synthetic-offline-demo,2026-09-26T06:00:00Z,71.159,3.727,142.568,195.66,1541.1,RUNNING,91.8,85,105,4.0,7.0,110,90,180,210
+HT-101,Underground Haul Truck 101,East decline,synthetic-offline-demo,2026-09-26T12:00:00Z,70.956,3.731,142.754,194.33,1542.5,RUNNING,91.8,85,105,4.0,7.0,110,90,180,210
+HT-101,Underground Haul Truck 101,East decline,synthetic-offline-demo,2026-09-26T18:00:00Z,70.812,3.744,143.059,193.8,1547.6,RUNNING,91.8,85,105,4.0,7.0,110,90,180,210
+HT-101,Underground Haul Truck 101,East decline,synthetic-offline-demo,2026-09-27T00:00:00Z,70.818,3.764,143.336,194.34,1553.8,RUNNING,91.8,85,105,4.0,7.0,110,90,180,210
+HT-101,Underground Haul Truck 101,East decline,synthetic-offline-demo,2026-09-27T06:00:00Z,70.989,3.788,143.45,195.68,1558.2,RUNNING,91.8,85,105,4.0,7.0,110,90,180,210
+HT-101,Underground Haul Truck 101,East decline,synthetic-offline-demo,2026-09-27T12:00:00Z,71.262,3.81,143.347,197.17,1558.6,RUNNING,91.8,85,105,4.0,7.0,110,90,180,210
+HT-101,Underground Haul Truck 101,East decline,synthetic-offline-demo,2026-09-27T18:00:00Z,71.524,3.825,143.076,198.1,1554.9,RUNNING,91.8,85,105,4.0,7.0,110,90,180,210
+HT-101,Underground Haul Truck 101,East decline,synthetic-offline-demo,2026-09-28T00:00:00Z,71.669,3.831,142.769,198.02,1548.7,RUNNING,91.8,85,105,4.0,7.0,110,90,180,210
+HT-101,Underground Haul Truck 101,East decline,synthetic-offline-demo,2026-09-28T06:00:00Z,71.645,3.832,142.573,196.96,1543.2,RUNNING,91.8,85,105,4.0,7.0,110,90,180,210
+HT-101,Underground Haul Truck 101,East decline,synthetic-offline-demo,2026-09-28T12:00:00Z,71.483,3.831,142.584,195.43,1541.0,RUNNING,91.8,85,105,4.0,7.0,110,90,180,210
+HT-101,Underground Haul Truck 101,East decline,synthetic-offline-demo,2026-09-28T18:00:00Z,71.281,3.837,142.796,194.19,1543.1,RUNNING,91.8,85,105,4.0,7.0,110,90,180,210
+HT-101,Underground Haul Truck 101,East decline,synthetic-offline-demo,2026-09-29T00:00:00Z,71.156,3.85,143.106,193.81,1548.6,RUNNING,91.8,85,105,4.0,7.0,110,90,180,210
+HT-101,Underground Haul Truck 101,East decline,synthetic-offline-demo,2026-09-29T06:00:00Z,71.188,3.872,143.366,194.5,1554.7,RUNNING,91.8,85,105,4.0,7.0,110,90,180,210
+HT-101,Underground Haul Truck 101,East decline,synthetic-offline-demo,2026-09-29T12:00:00Z,71.38,3.896,143.448,195.91,1558.6,RUNNING,91.8,85,105,4.0,7.0,110,90,180,210
+HT-101,Underground Haul Truck 101,East decline,synthetic-offline-demo,2026-09-29T18:00:00Z,71.659,3.917,143.314,197.36,1558.3,RUNNING,91.8,85,105,4.0,7.0,110,90,180,210
+LHD-204,Load-Haul-Dump 204,West stope,synthetic-offline-demo,2026-09-01T00:00:00Z,72.07,2.166,138.304,225.42,1428.2,RUNNING,95.2,90,110,4.2,7.5,105,85,180,210
+LHD-204,Load-Haul-Dump 204,West stope,synthetic-offline-demo,2026-09-01T06:00:00Z,72.28,2.168,138.017,226.17,1423.8,RUNNING,95.2,90,110,4.2,7.5,105,85,180,210
+LHD-204,Load-Haul-Dump 204,West stope,synthetic-offline-demo,2026-09-01T12:00:00Z,72.357,2.162,137.723,225.88,1417.5,RUNNING,95.2,90,110,4.2,7.5,105,85,180,210
+LHD-204,Load-Haul-Dump 204,West stope,synthetic-offline-demo,2026-09-01T18:00:00Z,72.265,2.151,137.565,224.67,1412.5,RUNNING,95.2,90,110,4.2,7.5,105,85,180,210
+LHD-204,Load-Haul-Dump 204,West stope,synthetic-offline-demo,2026-09-02T00:00:00Z,72.05,2.14,137.621,223.15,1411.1,RUNNING,95.2,90,110,4.2,7.5,105,85,180,210
+LHD-204,Load-Haul-Dump 204,West stope,synthetic-offline-demo,2026-09-02T06:00:00Z,71.819,2.136,137.865,222.03,1414.0,RUNNING,95.2,90,110,4.2,7.5,105,85,180,210
+LHD-204,Load-Haul-Dump 204,West stope,synthetic-offline-demo,2026-09-02T12:00:00Z,71.684,2.14,138.181,221.87,1419.8,RUNNING,95.2,90,110,4.2,7.5,105,85,180,210
+LHD-204,Load-Haul-Dump 204,West stope,synthetic-offline-demo,2026-09-02T18:00:00Z,71.712,2.151,138.416,222.73,1425.7,RUNNING,95.2,90,110,4.2,7.5,105,85,180,210
+LHD-204,Load-Haul-Dump 204,West stope,synthetic-offline-demo,2026-09-03T00:00:00Z,71.893,2.165,138.459,224.21,1428.9,RUNNING,95.2,90,110,4.2,7.5,105,85,180,210
+LHD-204,Load-Haul-Dump 204,West stope,synthetic-offline-demo,2026-09-03T06:00:00Z,72.139,2.174,138.289,225.59,1427.7,RUNNING,95.2,90,110,4.2,7.5,105,85,180,210
+LHD-204,Load-Haul-Dump 204,West stope,synthetic-offline-demo,2026-09-03T12:00:00Z,72.335,2.174,137.991,226.2,1422.9,RUNNING,95.2,90,110,4.2,7.5,105,85,180,210
+LHD-204,Load-Haul-Dump 204,West stope,synthetic-offline-demo,2026-09-03T18:00:00Z,72.387,2.167,137.709,225.74,1416.6,RUNNING,95.2,90,110,4.2,7.5,105,85,180,210
+LHD-204,Load-Haul-Dump 204,West stope,synthetic-offline-demo,2026-09-04T00:00:00Z,72.272,2.156,137.581,224.45,1412.0,RUNNING,95.2,90,110,4.2,7.5,105,85,180,210
+LHD-204,Load-Haul-Dump 204,West stope,synthetic-offline-demo,2026-09-04T06:00:00Z,72.047,2.146,137.67,222.94,1411.2,RUNNING,95.2,90,110,4.2,7.5,105,85,180,210
+LHD-204,Load-Haul-Dump 204,West stope,synthetic-offline-demo,2026-09-04T12:00:00Z,71.823,2.143,137.934,221.94,1414.7,RUNNING,95.2,90,110,4.2,7.5,105,85,180,210
+LHD-204,Load-Haul-Dump 204,West stope,synthetic-offline-demo,2026-09-04T18:00:00Z,71.71,2.148,138.247,221.94,1420.8,RUNNING,95.2,90,110,4.2,7.5,105,85,180,210
+LHD-204,Load-Haul-Dump 204,West stope,synthetic-offline-demo,2026-09-05T00:00:00Z,71.764,2.16,138.458,222.93,1426.4,RUNNING,95.2,90,110,4.2,7.5,105,85,180,210
+LHD-204,Load-Haul-Dump 204,West stope,synthetic-offline-demo,2026-09-05T06:00:00Z,71.962,2.173,138.468,224.44,1429.0,RUNNING,95.2,90,110,4.2,7.5,105,85,180,210
+LHD-204,Load-Haul-Dump 204,West stope,synthetic-offline-demo,2026-09-05T12:00:00Z,72.208,2.181,138.272,225.74,1427.2,RUNNING,95.2,90,110,4.2,7.5,105,85,180,210
+LHD-204,Load-Haul-Dump 204,West stope,synthetic-offline-demo,2026-09-05T18:00:00Z,72.387,2.18,137.966,226.2,1421.9,RUNNING,95.2,90,110,4.2,7.5,105,85,180,210
+LHD-204,Load-Haul-Dump 204,West stope,synthetic-offline-demo,2026-09-06T00:00:00Z,72.413,2.172,137.7,225.59,1415.7,RUNNING,95.2,90,110,4.2,7.5,105,85,180,210
+LHD-204,Load-Haul-Dump 204,West stope,synthetic-offline-demo,2026-09-06T06:00:00Z,72.276,2.16,137.603,224.22,1411.6,RUNNING,95.2,90,110,4.2,7.5,105,85,180,210
+LHD-204,Load-Haul-Dump 204,West stope,synthetic-offline-demo,2026-09-06T12:00:00Z,72.043,2.151,137.723,222.74,1411.5,RUNNING,95.2,90,110,4.2,7.5,105,85,180,210
+LHD-204,Load-Haul-Dump 204,West stope,synthetic-offline-demo,2026-09-06T18:00:00Z,71.83,2.149,138.004,221.87,1415.5,RUNNING,95.2,90,110,4.2,7.5,105,85,180,210
+LHD-204,Load-Haul-Dump 204,West stope,synthetic-offline-demo,2026-09-07T00:00:00Z,71.74,2.156,138.311,222.03,1421.7,RUNNING,95.2,90,110,4.2,7.5,105,85,180,210
+LHD-204,Load-Haul-Dump 204,West stope,synthetic-offline-demo,2026-09-07T06:00:00Z,71.82,2.169,138.496,223.14,1427.1,RUNNING,95.2,90,110,4.2,7.5,105,85,180,210
+LHD-204,Load-Haul-Dump 204,West stope,synthetic-offline-demo,2026-09-07T12:00:00Z,72.032,2.181,138.472,224.67,1429.0,RUNNING,95.2,90,110,4.2,7.5,105,85,180,210
+LHD-204,Load-Haul-Dump 204,West stope,synthetic-offline-demo,2026-09-07T18:00:00Z,72.275,2.188,138.251,225.88,1426.6,RUNNING,95.2,90,110,4.2,7.5,105,85,180,210
+LHD-204,Load-Haul-Dump 204,West stope,synthetic-offline-demo,2026-09-08T00:00:00Z,72.435,2.186,137.942,226.17,1421.0,RUNNING,95.2,90,110,4.2,7.5,105,85,180,210
+LHD-204,Load-Haul-Dump 204,West stope,synthetic-offline-demo,2026-09-08T06:00:00Z,72.435,2.177,137.694,225.42,1414.9,RUNNING,95.2,90,110,4.2,7.5,105,85,180,210
+LHD-204,Load-Haul-Dump 204,West stope,synthetic-offline-demo,2026-09-08T12:00:00Z,72.278,2.165,137.629,223.98,1411.3,RUNNING,95.2,90,110,4.2,7.5,105,85,180,210
+LHD-204,Load-Haul-Dump 204,West stope,synthetic-offline-demo,2026-09-08T18:00:00Z,72.04,2.157,137.78,222.55,1411.9,RUNNING,95.2,90,110,4.2,7.5,105,85,180,210
+LHD-204,Load-Haul-Dump 204,West stope,synthetic-offline-demo,2026-09-09T00:00:00Z,71.84,2.157,138.074,221.82,1416.4,RUNNING,95.2,90,110,4.2,7.5,105,85,180,210
+LHD-204,Load-Haul-Dump 204,West stope,synthetic-offline-demo,2026-09-09T06:00:00Z,71.775,2.165,138.371,222.15,1422.6,RUNNING,95.2,90,110,4.2,7.5,105,85,180,210
+LHD-204,Load-Haul-Dump 204,West stope,synthetic-offline-demo,2026-09-09T12:00:00Z,71.878,2.177,138.529,223.37,1427.6,RUNNING,95.2,90,110,4.2,7.5,105,85,180,210
+LHD-204,Load-Haul-Dump 204,West stope,synthetic-offline-demo,2026-09-09T18:00:00Z,72.102,2.189,138.472,224.89,1428.9,RUNNING,95.2,90,110,4.2,7.5,105,85,180,210
+LHD-204,Load-Haul-Dump 204,West stope,synthetic-offline-demo,2026-09-10T00:00:00Z,72.34,2.195,138.229,225.99,1425.9,RUNNING,95.2,90,110,4.2,7.5,105,85,180,210
+LHD-204,Load-Haul-Dump 204,West stope,synthetic-offline-demo,2026-09-10T06:00:00Z,72.479,2.192,137.919,226.12,1420.0,RUNNING,95.2,90,110,4.2,7.5,105,85,180,210
+LHD-204,Load-Haul-Dump 204,West stope,synthetic-offline-demo,2026-09-10T12:00:00Z,72.454,2.182,137.693,225.23,1414.2,RUNNING,95.2,90,110,4.2,7.5,105,85,180,210
+LHD-204,Load-Haul-Dump 204,West stope,synthetic-offline-demo,2026-09-10T18:00:00Z,72.277,2.17,137.661,223.75,1411.1,RUNNING,95.2,90,110,4.2,7.5,105,85,180,210
+LHD-204,Load-Haul-Dump 204,West stope,synthetic-offline-demo,2026-09-11T00:00:00Z,72.038,2.163,137.84,222.38,1412.4,RUNNING,95.2,90,110,4.2,7.5,105,85,180,210
+LHD-204,Load-Haul-Dump 204,West stope,synthetic-offline-demo,2026-09-11T06:00:00Z,71.853,2.164,138.145,221.8,1417.3,RUNNING,95.2,90,110,4.2,7.5,105,85,180,210
+LHD-204,Load-Haul-Dump 204,West stope,synthetic-offline-demo,2026-09-11T12:00:00Z,71.813,2.173,138.429,222.28,1423.5,RUNNING,95.2,90,110,4.2,7.5,105,85,180,210
+LHD-204,Load-Haul-Dump 204,West stope,synthetic-offline-demo,2026-09-11T18:00:00Z,71.94,2.186,138.557,223.59,1428.1,RUNNING,95.2,90,110,4.2,7.5,105,85,180,210
+LHD-204,Load-Haul-Dump 204,West stope,synthetic-offline-demo,2026-09-12T00:00:00Z,72.173,2.197,138.467,225.1,1428.7,RUNNING,95.2,90,110,4.2,7.5,105,85,180,210
+LHD-204,Load-Haul-Dump 204,West stope,synthetic-offline-demo,2026-09-12T06:00:00Z,72.403,2.202,138.205,226.08,1425.1,RUNNING,95.2,90,110,4.2,7.5,105,85,180,210
+LHD-204,Load-Haul-Dump 204,West stope,synthetic-offline-demo,2026-09-12T12:00:00Z,72.52,2.197,137.898,226.05,1419.1,RUNNING,95.2,90,110,4.2,7.5,105,85,180,210
+LHD-204,Load-Haul-Dump 204,West stope,synthetic-offline-demo,2026-09-12T18:00:00Z,72.468,2.187,137.696,225.03,1413.5,RUNNING,95.2,90,110,4.2,7.5,105,85,180,210
+LHD-204,Load-Haul-Dump 204,West stope,synthetic-offline-demo,2026-09-13T00:00:00Z,72.276,2.176,137.698,223.51,1411.0,RUNNING,95.2,90,110,4.2,7.5,105,85,180,210
+LHD-204,Load-Haul-Dump 204,West stope,synthetic-offline-demo,2026-09-13T06:00:00Z,72.037,2.169,137.903,222.23,1412.9,RUNNING,95.2,90,110,4.2,7.5,105,85,180,210
+LHD-204,Load-Haul-Dump 204,West stope,synthetic-offline-demo,2026-09-13T12:00:00Z,71.869,2.171,138.215,221.81,1418.2,RUNNING,95.2,90,110,4.2,7.5,105,85,180,210
+LHD-204,Load-Haul-Dump 204,West stope,synthetic-offline-demo,2026-09-13T18:00:00Z,71.855,2.181,138.483,222.44,1424.4,RUNNING,95.2,90,110,4.2,7.5,105,85,180,210
+LHD-204,Load-Haul-Dump 204,West stope,synthetic-offline-demo,2026-09-14T00:00:00Z,72.003,2.195,138.579,223.83,1428.5,RUNNING,95.2,90,110,4.2,7.5,105,85,180,210
+LHD-204,Load-Haul-Dump 204,West stope,synthetic-offline-demo,2026-09-14T06:00:00Z,72.244,2.205,138.459,225.3,1428.4,RUNNING,95.2,90,110,4.2,7.5,105,85,180,210
+LHD-204,Load-Haul-Dump 204,West stope,synthetic-offline-demo,2026-09-14T12:00:00Z,72.463,2.208,138.18,226.14,1424.3,RUNNING,95.2,90,110,4.2,7.5,105,85,180,210
+LHD-204,Load-Haul-Dump 204,West stope,synthetic-offline-demo,2026-09-14T18:00:00Z,72.556,2.203,137.88,225.95,1418.1,RUNNING,95.2,90,110,4.2,7.5,105,85,180,210
+LHD-204,Load-Haul-Dump 204,West stope,synthetic-offline-demo,2026-09-15T00:00:00Z,72.48,2.192,137.704,224.82,1412.8,RUNNING,95.2,90,110,4.2,7.5,105,85,180,210
+LHD-204,Load-Haul-Dump 204,West stope,synthetic-offline-demo,2026-09-15T06:00:00Z,72.273,2.181,137.739,223.29,1411.0,RUNNING,95.2,90,110,4.2,7.5,105,85,180,210
+LHD-204,Load-Haul-Dump 204,West stope,synthetic-offline-demo,2026-09-15T12:00:00Z,72.038,2.176,137.969,222.1,1413.5,RUNNING,95.2,90,110,4.2,7.5,105,85,180,210
+LHD-204,Load-Haul-Dump 204,West stope,synthetic-offline-demo,2026-09-15T18:00:00Z,71.889,2.179,138.284,221.83,1419.2,RUNNING,95.2,90,110,4.2,7.5,105,85,180,210
+LHD-204,Load-Haul-Dump 204,West stope,synthetic-offline-demo,2026-09-16T00:00:00Z,71.901,2.19,138.533,222.61,1425.2,RUNNING,95.2,90,110,4.2,7.5,105,85,180,210
+LHD-204,Load-Haul-Dump 204,West stope,synthetic-offline-demo,2026-09-16T06:00:00Z,72.07,2.203,138.597,224.06,1428.7,RUNNING,95.2,90,110,4.2,7.5,105,85,180,210
+LHD-204,Load-Haul-Dump 204,West stope,synthetic-offline-demo,2026-09-16T12:00:00Z,72.315,2.213,138.446,225.48,1428.0,RUNNING,95.2,90,110,4.2,7.5,105,85,180,210
+LHD-204,Load-Haul-Dump 204,West stope,synthetic-offline-demo,2026-09-16T18:00:00Z,72.52,2.215,138.155,226.18,1423.5,RUNNING,95.2,90,110,4.2,7.5,105,85,180,210
+LHD-204,Load-Haul-Dump 204,West stope,synthetic-offline-demo,2026-09-17T00:00:00Z,72.589,2.208,137.865,225.83,1417.2,RUNNING,95.2,90,110,4.2,7.5,105,85,180,210
+LHD-204,Load-Haul-Dump 204,West stope,synthetic-offline-demo,2026-09-17T06:00:00Z,72.488,2.196,137.717,224.6,1412.3,RUNNING,95.2,90,110,4.2,7.5,105,85,180,210
+LHD-204,Load-Haul-Dump 204,West stope,synthetic-offline-demo,2026-09-17T12:00:00Z,72.27,2.186,137.785,223.07,1411.1,RUNNING,95.2,90,110,4.2,7.5,105,85,180,210
+LHD-204,Load-Haul-Dump 204,West stope,synthetic-offline-demo,2026-09-17T18:00:00Z,72.041,2.182,138.036,222.0,1414.2,RUNNING,95.2,90,110,4.2,7.5,105,85,180,210
+LHD-204,Load-Haul-Dump 204,West stope,synthetic-offline-demo,2026-09-18T00:00:00Z,71.913,2.187,138.351,221.89,1420.1,RUNNING,95.2,90,110,4.2,7.5,105,85,180,210
+LHD-204,Load-Haul-Dump 204,West stope,synthetic-offline-demo,2026-09-18T06:00:00Z,71.951,2.199,138.578,222.8,1426.0,RUNNING,95.2,90,110,4.2,7.5,105,85,180,210
+LHD-204,Load-Haul-Dump 204,West stope,synthetic-offline-demo,2026-09-18T12:00:00Z,72.137,2.212,138.609,224.3,1428.9,RUNNING,95.2,90,110,4.2,7.5,105,85,180,210
+LHD-204,Load-Haul-Dump 204,West stope,synthetic-offline-demo,2026-09-18T18:00:00Z,72.384,2.22,138.431,225.64,1427.6,RUNNING,95.2,90,110,4.2,7.5,105,85,180,210
+LHD-204,Load-Haul-Dump 204,West stope,synthetic-offline-demo,2026-09-19T00:00:00Z,72.574,2.221,138.129,226.2,1422.5,RUNNING,95.2,90,110,4.2,7.5,105,85,180,210
+LHD-204,Load-Haul-Dump 204,West stope,synthetic-offline-demo,2026-09-19T06:00:00Z,72.617,2.213,137.853,225.69,1416.3,RUNNING,95.2,90,110,4.2,7.5,105,85,180,210
+LHD-204,Load-Haul-Dump 204,West stope,synthetic-offline-demo,2026-09-19T12:00:00Z,72.494,2.201,137.735,224.37,1411.8,RUNNING,95.2,90,110,4.2,7.5,105,85,180,210
+LHD-204,Load-Haul-Dump 204,West stope,synthetic-offline-demo,2026-09-19T18:00:00Z,72.266,2.192,137.835,222.86,1411.3,RUNNING,95.2,90,110,4.2,7.5,105,85,180,210
+LHD-204,Load-Haul-Dump 204,West stope,synthetic-offline-demo,2026-09-20T00:00:00Z,72.046,2.189,138.106,221.91,1415.0,RUNNING,95.2,90,110,4.2,7.5,105,85,180,210
+LHD-204,Load-Haul-Dump 204,West stope,synthetic-offline-demo,2026-09-20T06:00:00Z,71.941,2.195,138.417,221.97,1421.1,RUNNING,95.2,90,110,4.2,7.5,105,85,180,210
+LHD-204,Load-Haul-Dump 204,West stope,synthetic-offline-demo,2026-09-20T12:00:00Z,72.004,2.207,138.619,223.01,1426.6,RUNNING,95.2,90,110,4.2,7.5,105,85,180,210
+LHD-204,Load-Haul-Dump 204,West stope,synthetic-offline-demo,2026-09-20T18:00:00Z,72.207,2.22,138.617,224.53,1429.0,RUNNING,95.2,90,110,4.2,7.5,105,85,180,210
+LHD-204,Load-Haul-Dump 204,West stope,synthetic-offline-demo,2026-09-21T00:00:00Z,72.453,2.228,138.412,225.79,1427.0,RUNNING,95.2,90,110,4.2,7.5,105,85,180,210
+LHD-204,Load-Haul-Dump 204,West stope,synthetic-offline-demo,2026-09-21T06:00:00Z,72.625,2.227,138.104,226.19,1421.6,RUNNING,95.2,90,110,4.2,7.5,105,85,180,210
+LHD-204,Load-Haul-Dump 204,West stope,synthetic-offline-demo,2026-09-21T12:00:00Z,72.642,2.218,137.844,225.53,1415.5,RUNNING,95.2,90,110,4.2,7.5,105,85,180,210
+LHD-204,Load-Haul-Dump 204,West stope,synthetic-offline-demo,2026-09-21T18:00:00Z,72.497,2.206,137.759,224.13,1411.5,RUNNING,95.2,90,110,4.2,7.5,105,85,180,210
+LHD-204,Load-Haul-Dump 204,West stope,synthetic-offline-demo,2026-09-22T00:00:00Z,72.263,2.197,137.89,222.67,1411.6,RUNNING,95.2,90,110,4.2,7.5,105,85,180,210
+LHD-204,Load-Haul-Dump 204,West stope,synthetic-offline-demo,2026-09-22T06:00:00Z,72.054,2.196,138.176,221.85,1415.8,RUNNING,95.2,90,110,4.2,7.5,105,85,180,210
+LHD-204,Load-Haul-Dump 204,West stope,synthetic-offline-demo,2026-09-22T12:00:00Z,71.973,2.203,138.479,222.07,1422.0,RUNNING,95.2,90,110,4.2,7.5,105,85,180,210
+LHD-204,Load-Haul-Dump 204,West stope,synthetic-offline-demo,2026-09-22T18:00:00Z,72.061,2.216,138.655,223.22,1427.3,RUNNING,95.2,90,110,4.2,7.5,105,85,180,210
+LHD-204,Load-Haul-Dump 204,West stope,synthetic-offline-demo,2026-09-23T00:00:00Z,72.277,2.228,138.62,224.75,1429.0,RUNNING,95.2,90,110,4.2,7.5,105,85,180,210
+LHD-204,Load-Haul-Dump 204,West stope,synthetic-offline-demo,2026-09-23T06:00:00Z,72.519,2.235,138.391,225.92,1426.4,RUNNING,95.2,90,110,4.2,7.5,105,85,180,210
+LHD-204,Load-Haul-Dump 204,West stope,synthetic-offline-demo,2026-09-23T12:00:00Z,72.672,2.232,138.081,226.16,1420.7,RUNNING,95.2,90,110,4.2,7.5,105,85,180,210
+LHD-204,Load-Haul-Dump 204,West stope,synthetic-offline-demo,2026-09-23T18:00:00Z,72.663,2.223,137.84,225.35,1414.7,RUNNING,95.2,90,110,4.2,7.5,105,85,180,210
+LHD-204,Load-Haul-Dump 204,West stope,synthetic-offline-demo,2026-09-24T00:00:00Z,72.498,2.211,137.787,223.9,1411.2,RUNNING,95.2,90,110,4.2,7.5,105,85,180,210
+LHD-204,Load-Haul-Dump 204,West stope,synthetic-offline-demo,2026-09-24T06:00:00Z,72.26,2.203,137.948,222.49,1412.0,RUNNING,95.2,90,110,4.2,7.5,105,85,180,210
+LHD-204,Load-Haul-Dump 204,West stope,synthetic-offline-demo,2026-09-24T12:00:00Z,72.064,2.203,138.246,221.81,1416.7,RUNNING,95.2,90,110,4.2,7.5,105,85,180,210
+LHD-204,Load-Haul-Dump 204,West stope,synthetic-offline-demo,2026-09-24T18:00:00Z,72.008,2.212,138.539,222.19,1423.0,RUNNING,95.2,90,110,4.2,7.5,105,85,180,210
+LHD-204,Load-Haul-Dump 204,West stope,synthetic-offline-demo,2026-09-25T00:00:00Z,72.12,2.225,138.686,223.44,1427.8,RUNNING,95.2,90,110,4.2,7.5,105,85,180,210
+LHD-204,Load-Haul-Dump 204,West stope,synthetic-offline-demo,2026-09-25T06:00:00Z,72.348,2.236,138.618,224.97,1428.8,RUNNING,95.2,90,110,4.2,7.5,105,85,180,210
+LHD-204,Load-Haul-Dump 204,West stope,synthetic-offline-demo,2026-09-25T12:00:00Z,72.583,2.241,138.368,226.02,1425.6,RUNNING,95.2,90,110,4.2,7.5,105,85,180,210
+LHD-204,Load-Haul-Dump 204,West stope,synthetic-offline-demo,2026-09-25T18:00:00Z,72.715,2.238,138.059,226.1,1419.7,RUNNING,95.2,90,110,4.2,7.5,105,85,180,210
+LHD-204,Load-Haul-Dump 204,West stope,synthetic-offline-demo,2026-09-26T00:00:00Z,72.68,2.228,137.84,225.16,1413.9,RUNNING,95.2,90,110,4.2,7.5,105,85,180,210
+LHD-204,Load-Haul-Dump 204,West stope,synthetic-offline-demo,2026-09-26T06:00:00Z,72.498,2.216,137.82,223.66,1411.1,RUNNING,95.2,90,110,4.2,7.5,105,85,180,210
+LHD-204,Load-Haul-Dump 204,West stope,synthetic-offline-demo,2026-09-26T12:00:00Z,72.258,2.209,138.009,222.33,1412.5,RUNNING,95.2,90,110,4.2,7.5,105,85,180,210
+LHD-204,Load-Haul-Dump 204,West stope,synthetic-offline-demo,2026-09-26T18:00:00Z,72.079,2.211,138.317,221.8,1417.6,RUNNING,95.2,90,110,4.2,7.5,105,85,180,210
+LHD-204,Load-Haul-Dump 204,West stope,synthetic-offline-demo,2026-09-27T00:00:00Z,72.048,2.22,138.596,222.34,1423.8,RUNNING,95.2,90,110,4.2,7.5,105,85,180,210
+LHD-204,Load-Haul-Dump 204,West stope,synthetic-offline-demo,2026-09-27T06:00:00Z,72.182,2.233,138.712,223.68,1428.2,RUNNING,95.2,90,110,4.2,7.5,105,85,180,210
+LHD-204,Load-Haul-Dump 204,West stope,synthetic-offline-demo,2026-09-27T12:00:00Z,72.419,2.244,138.612,225.17,1428.6,RUNNING,95.2,90,110,4.2,7.5,105,85,180,210
+LHD-204,Load-Haul-Dump 204,West stope,synthetic-offline-demo,2026-09-27T18:00:00Z,72.645,2.248,138.344,226.1,1424.9,RUNNING,95.2,90,110,4.2,7.5,105,85,180,210
+LHD-204,Load-Haul-Dump 204,West stope,synthetic-offline-demo,2026-09-28T00:00:00Z,72.754,2.243,138.039,226.02,1418.7,RUNNING,95.2,90,110,4.2,7.5,105,85,180,210
+LHD-204,Load-Haul-Dump 204,West stope,synthetic-offline-demo,2026-09-28T06:00:00Z,72.693,2.233,137.845,224.96,1413.2,RUNNING,95.2,90,110,4.2,7.5,105,85,180,210
+LHD-204,Load-Haul-Dump 204,West stope,synthetic-offline-demo,2026-09-28T12:00:00Z,72.496,2.221,137.859,223.43,1411.0,RUNNING,95.2,90,110,4.2,7.5,105,85,180,210
+LHD-204,Load-Haul-Dump 204,West stope,synthetic-offline-demo,2026-09-28T18:00:00Z,72.258,2.216,138.073,222.19,1413.1,RUNNING,95.2,90,110,4.2,7.5,105,85,180,210
+LHD-204,Load-Haul-Dump 204,West stope,synthetic-offline-demo,2026-09-29T00:00:00Z,72.096,2.218,138.386,221.81,1418.6,RUNNING,95.2,90,110,4.2,7.5,105,85,180,210
+LHD-204,Load-Haul-Dump 204,West stope,synthetic-offline-demo,2026-09-29T06:00:00Z,72.091,2.229,138.648,222.5,1424.7,RUNNING,95.2,90,110,4.2,7.5,105,85,180,210
+LHD-204,Load-Haul-Dump 204,West stope,synthetic-offline-demo,2026-09-29T12:00:00Z,72.247,2.242,138.733,223.91,1428.6,RUNNING,95.2,90,110,4.2,7.5,105,85,180,210
+LHD-204,Load-Haul-Dump 204,West stope,synthetic-offline-demo,2026-09-29T18:00:00Z,72.49,2.252,138.602,225.36,1428.3,RUNNING,95.2,90,110,4.2,7.5,105,85,180,210
+DR-305,Jumbo Drill 305,Development 3,synthetic-offline-demo,2026-09-01T00:00:00Z,61.07,3.166,151.304,179.42,988.2,RUNNING,88.6,82,102,4.2,7.5,115,92,185,215
+DR-305,Jumbo Drill 305,Development 3,synthetic-offline-demo,2026-09-01T06:00:00Z,61.299,3.173,151.014,180.17,983.8,RUNNING,88.6,82,102,4.2,7.5,115,92,185,215
+DR-305,Jumbo Drill 305,Development 3,synthetic-offline-demo,2026-09-01T12:00:00Z,61.395,3.172,150.718,179.88,977.5,RUNNING,88.6,82,102,4.2,7.5,115,92,185,215
+DR-305,Jumbo Drill 305,Development 3,synthetic-offline-demo,2026-09-01T18:00:00Z,61.321,3.166,150.557,178.67,972.5,RUNNING,88.6,82,102,4.2,7.5,115,92,185,215
+DR-305,Jumbo Drill 305,Development 3,synthetic-offline-demo,2026-09-02T00:00:00Z,61.125,3.16,150.611,177.15,971.1,RUNNING,88.6,82,102,4.2,7.5,115,92,185,215
+DR-305,Jumbo Drill 305,Development 3,synthetic-offline-demo,2026-09-02T06:00:00Z,60.912,3.161,150.853,176.03,974.0,RUNNING,88.6,82,102,4.2,7.5,115,92,185,215
+DR-305,Jumbo Drill 305,Development 3,synthetic-offline-demo,2026-09-02T12:00:00Z,60.796,3.17,151.166,175.87,979.8,RUNNING,88.6,82,102,4.2,7.5,115,92,185,215
+DR-305,Jumbo Drill 305,Development 3,synthetic-offline-demo,2026-09-02T18:00:00Z,60.844,3.186,151.398,176.73,985.7,RUNNING,88.6,82,102,4.2,7.5,115,92,185,215
+DR-305,Jumbo Drill 305,Development 3,synthetic-offline-demo,2026-09-03T00:00:00Z,61.043,3.205,151.439,178.21,988.9,RUNNING,88.6,82,102,4.2,7.5,115,92,185,215
+DR-305,Jumbo Drill 305,Development 3,synthetic-offline-demo,2026-09-03T06:00:00Z,61.308,3.219,151.267,179.59,987.7,RUNNING,88.6,82,102,4.2,7.5,115,92,185,215
+DR-305,Jumbo Drill 305,Development 3,synthetic-offline-demo,2026-09-03T12:00:00Z,61.523,3.224,150.966,180.2,982.9,RUNNING,88.6,82,102,4.2,7.5,115,92,185,215
+DR-305,Jumbo Drill 305,Development 3,synthetic-offline-demo,2026-09-03T18:00:00Z,61.593,3.222,150.682,179.74,976.6,RUNNING,88.6,82,102,4.2,7.5,115,92,185,215
+DR-305,Jumbo Drill 305,Development 3,synthetic-offline-demo,2026-09-04T00:00:00Z,61.497,3.216,150.551,178.45,972.0,RUNNING,88.6,82,102,4.2,7.5,115,92,185,215
+DR-305,Jumbo Drill 305,Development 3,synthetic-offline-demo,2026-09-04T06:00:00Z,61.291,3.211,150.638,176.94,971.2,RUNNING,88.6,82,102,4.2,7.5,115,92,185,215
+DR-305,Jumbo Drill 305,Development 3,synthetic-offline-demo,2026-09-04T12:00:00Z,61.085,3.213,150.899,175.94,974.7,RUNNING,88.6,82,102,4.2,7.5,115,92,185,215
+DR-305,Jumbo Drill 305,Development 3,synthetic-offline-demo,2026-09-04T18:00:00Z,60.991,3.223,151.209,175.94,980.8,RUNNING,88.6,82,102,4.2,7.5,115,92,185,215
+DR-305,Jumbo Drill 305,Development 3,synthetic-offline-demo,2026-09-05T00:00:00Z,61.064,3.24,151.418,176.93,986.4,RUNNING,88.6,82,102,4.2,7.5,115,92,185,215
+DR-305,Jumbo Drill 305,Development 3,synthetic-offline-demo,2026-09-05T06:00:00Z,61.28,3.258,151.425,178.44,989.0,RUNNING,88.6,82,102,4.2,7.5,115,92,185,215
+DR-305,Jumbo Drill 305,Development 3,synthetic-offline-demo,2026-09-05T12:00:00Z,61.546,3.271,151.227,179.74,987.2,RUNNING,88.6,82,102,4.2,7.5,115,92,185,215
+DR-305,Jumbo Drill 305,Development 3,synthetic-offline-demo,2026-09-05T18:00:00Z,61.743,3.275,150.919,180.2,981.9,RUNNING,88.6,82,102,4.2,7.5,115,92,185,215
+DR-305,Jumbo Drill 305,Development 3,synthetic-offline-demo,2026-09-06T00:00:00Z,61.788,3.272,150.65,179.59,975.7,RUNNING,88.6,82,102,4.2,7.5,115,92,185,215
+DR-305,Jumbo Drill 305,Development 3,synthetic-offline-demo,2026-09-06T06:00:00Z,61.67,3.265,150.55,178.22,971.6,RUNNING,88.6,82,102,4.2,7.5,115,92,185,215
+DR-305,Jumbo Drill 305,Development 3,synthetic-offline-demo,2026-09-06T12:00:00Z,61.456,3.261,150.668,176.74,971.5,RUNNING,88.6,82,102,4.2,7.5,115,92,185,215
+DR-305,Jumbo Drill 305,Development 3,synthetic-offline-demo,2026-09-06T18:00:00Z,61.261,3.264,150.946,175.87,975.5,RUNNING,88.6,82,102,4.2,7.5,115,92,185,215
+DR-305,Jumbo Drill 305,Development 3,synthetic-offline-demo,2026-09-07T00:00:00Z,61.19,3.276,151.251,176.03,981.7,RUNNING,88.6,82,102,4.2,7.5,115,92,185,215
+DR-305,Jumbo Drill 305,Development 3,synthetic-offline-demo,2026-09-07T06:00:00Z,61.288,3.294,151.434,177.14,987.1,RUNNING,88.6,82,102,4.2,7.5,115,92,185,215
+DR-305,Jumbo Drill 305,Development 3,synthetic-offline-demo,2026-09-07T12:00:00Z,61.519,3.311,151.407,178.67,989.0,RUNNING,88.6,82,102,4.2,7.5,115,92,185,215
+DR-305,Jumbo Drill 305,Development 3,synthetic-offline-demo,2026-09-07T18:00:00Z,61.782,3.323,151.184,179.88,986.6,RUNNING,88.6,82,102,4.2,7.5,115,92,185,215
+DR-305,Jumbo Drill 305,Development 3,synthetic-offline-demo,2026-09-08T00:00:00Z,61.96,3.326,150.872,180.17,981.0,RUNNING,88.6,82,102,4.2,7.5,115,92,185,215
+DR-305,Jumbo Drill 305,Development 3,synthetic-offline-demo,2026-09-08T06:00:00Z,61.979,3.322,150.622,179.42,974.9,RUNNING,88.6,82,102,4.2,7.5,115,92,185,215
+DR-305,Jumbo Drill 305,Development 3,synthetic-offline-demo,2026-09-08T12:00:00Z,61.84,3.315,150.554,177.98,971.3,RUNNING,88.6,82,102,4.2,7.5,115,92,185,215
+DR-305,Jumbo Drill 305,Development 3,synthetic-offline-demo,2026-09-08T18:00:00Z,61.622,3.312,150.702,176.55,971.9,RUNNING,88.6,82,102,4.2,7.5,115,92,185,215
+DR-305,Jumbo Drill 305,Development 3,synthetic-offline-demo,2026-09-09T00:00:00Z,61.44,3.317,150.994,175.82,976.4,RUNNING,88.6,82,102,4.2,7.5,115,92,185,215
+DR-305,Jumbo Drill 305,Development 3,synthetic-offline-demo,2026-09-09T06:00:00Z,61.393,3.33,151.289,176.15,982.6,RUNNING,88.6,82,102,4.2,7.5,115,92,185,215
+DR-305,Jumbo Drill 305,Development 3,synthetic-offline-demo,2026-09-09T12:00:00Z,61.516,3.347,151.444,177.37,987.6,RUNNING,88.6,82,102,4.2,7.5,115,92,185,215
+DR-305,Jumbo Drill 305,Development 3,synthetic-offline-demo,2026-09-09T18:00:00Z,61.759,3.364,151.384,178.89,988.9,RUNNING,88.6,82,102,4.2,7.5,115,92,185,215
+DR-305,Jumbo Drill 305,Development 3,synthetic-offline-demo,2026-09-10T00:00:00Z,62.015,3.375,151.139,179.99,985.9,RUNNING,88.6,82,102,4.2,7.5,115,92,185,215
+DR-305,Jumbo Drill 305,Development 3,synthetic-offline-demo,2026-09-10T06:00:00Z,62.173,3.377,150.827,180.12,980.0,RUNNING,88.6,82,102,4.2,7.5,115,92,185,215
+DR-305,Jumbo Drill 305,Development 3,synthetic-offline-demo,2026-09-10T12:00:00Z,62.166,3.372,150.598,179.23,974.2,RUNNING,88.6,82,102,4.2,7.5,115,92,185,215
+DR-305,Jumbo Drill 305,Development 3,synthetic-offline-demo,2026-09-10T18:00:00Z,62.009,3.365,150.563,177.75,971.1,RUNNING,88.6,82,102,4.2,7.5,115,92,185,215
+DR-305,Jumbo Drill 305,Development 3,synthetic-offline-demo,2026-09-11T00:00:00Z,61.788,3.363,150.74,176.38,972.4,RUNNING,88.6,82,102,4.2,7.5,115,92,185,215
+DR-305,Jumbo Drill 305,Development 3,synthetic-offline-demo,2026-09-11T06:00:00Z,61.621,3.369,151.042,175.8,977.3,RUNNING,88.6,82,102,4.2,7.5,115,92,185,215
+DR-305,Jumbo Drill 305,Development 3,synthetic-offline-demo,2026-09-11T12:00:00Z,61.6,3.383,151.324,176.28,983.5,RUNNING,88.6,82,102,4.2,7.5,115,92,185,215
+DR-305,Jumbo Drill 305,Development 3,synthetic-offline-demo,2026-09-11T18:00:00Z,61.746,3.401,151.449,177.59,988.1,RUNNING,88.6,82,102,4.2,7.5,115,92,185,215
+DR-305,Jumbo Drill 305,Development 3,synthetic-offline-demo,2026-09-12T00:00:00Z,61.998,3.417,151.357,179.1,988.7,RUNNING,88.6,82,102,4.2,7.5,115,92,185,215
+DR-305,Jumbo Drill 305,Development 3,synthetic-offline-demo,2026-09-12T06:00:00Z,62.247,3.427,151.093,180.08,985.1,RUNNING,88.6,82,102,4.2,7.5,115,92,185,215
+DR-305,Jumbo Drill 305,Development 3,synthetic-offline-demo,2026-09-12T12:00:00Z,62.382,3.427,150.783,180.05,979.1,RUNNING,88.6,82,102,4.2,7.5,115,92,185,215
+DR-305,Jumbo Drill 305,Development 3,synthetic-offline-demo,2026-09-12T18:00:00Z,62.35,3.422,150.579,179.03,973.5,RUNNING,88.6,82,102,4.2,7.5,115,92,185,215
+DR-305,Jumbo Drill 305,Development 3,synthetic-offline-demo,2026-09-13T00:00:00Z,62.176,3.416,150.578,177.51,971.0,RUNNING,88.6,82,102,4.2,7.5,115,92,185,215
+DR-305,Jumbo Drill 305,Development 3,synthetic-offline-demo,2026-09-13T06:00:00Z,61.956,3.414,150.781,176.23,972.9,RUNNING,88.6,82,102,4.2,7.5,115,92,185,215
+DR-305,Jumbo Drill 305,Development 3,synthetic-offline-demo,2026-09-13T12:00:00Z,61.807,3.421,151.09,175.81,978.2,RUNNING,88.6,82,102,4.2,7.5,115,92,185,215
+DR-305,Jumbo Drill 305,Development 3,synthetic-offline-demo,2026-09-13T18:00:00Z,61.811,3.436,151.356,176.44,984.4,RUNNING,88.6,82,102,4.2,7.5,115,92,185,215
+DR-305,Jumbo Drill 305,Development 3,synthetic-offline-demo,2026-09-14T00:00:00Z,61.978,3.455,151.449,177.83,988.5,RUNNING,88.6,82,102,4.2,7.5,115,92,185,215
+DR-305,Jumbo Drill 305,Development 3,synthetic-offline-demo,2026-09-14T06:00:00Z,62.238,3.47,151.326,179.3,988.4,RUNNING,88.6,82,102,4.2,7.5,115,92,185,215
+DR-305,Jumbo Drill 305,Development 3,synthetic-offline-demo,2026-09-14T12:00:00Z,62.476,3.478,151.045,180.14,984.3,RUNNING,88.6,82,102,4.2,7.5,115,92,185,215
+DR-305,Jumbo Drill 305,Development 3,synthetic-offline-demo,2026-09-14T18:00:00Z,62.587,3.478,150.742,179.95,978.1,RUNNING,88.6,82,102,4.2,7.5,115,92,185,215
+DR-305,Jumbo Drill 305,Development 3,synthetic-offline-demo,2026-09-15T00:00:00Z,62.53,3.472,150.564,178.82,972.8,RUNNING,88.6,82,102,4.2,7.5,115,92,185,215
+DR-305,Jumbo Drill 305,Development 3,synthetic-offline-demo,2026-09-15T06:00:00Z,62.342,3.466,150.596,177.29,971.0,RUNNING,88.6,82,102,4.2,7.5,115,92,185,215
+DR-305,Jumbo Drill 305,Development 3,synthetic-offline-demo,2026-09-15T12:00:00Z,62.125,3.466,150.824,176.1,973.5,RUNNING,88.6,82,102,4.2,7.5,115,92,185,215
+DR-305,Jumbo Drill 305,Development 3,synthetic-offline-demo,2026-09-15T18:00:00Z,61.995,3.474,151.136,175.83,979.2,RUNNING,88.6,82,102,4.2,7.5,115,92,185,215
+DR-305,Jumbo Drill 305,Development 3,synthetic-offline-demo,2026-09-16T00:00:00Z,62.026,3.49,151.383,176.61,985.2,RUNNING,88.6,82,102,4.2,7.5,115,92,185,215
+DR-305,Jumbo Drill 305,Development 3,synthetic-offline-demo,2026-09-16T06:00:00Z,62.213,3.508,151.444,178.06,988.7,RUNNING,88.6,82,102,4.2,7.5,115,92,185,215
+DR-305,Jumbo Drill 305,Development 3,synthetic-offline-demo,2026-09-16T12:00:00Z,62.477,3.523,151.291,179.48,988.0,RUNNING,88.6,82,102,4.2,7.5,115,92,185,215
+DR-305,Jumbo Drill 305,Development 3,synthetic-offline-demo,2026-09-16T18:00:00Z,62.702,3.53,150.997,180.18,983.5,RUNNING,88.6,82,102,4.2,7.5,115,92,185,215
+DR-305,Jumbo Drill 305,Development 3,synthetic-offline-demo,2026-09-17T00:00:00Z,62.789,3.528,150.705,179.83,977.2,RUNNING,88.6,82,102,4.2,7.5,115,92,185,215
+DR-305,Jumbo Drill 305,Development 3,synthetic-offline-demo,2026-09-17T06:00:00Z,62.707,3.521,150.555,178.6,972.3,RUNNING,88.6,82,102,4.2,7.5,115,92,185,215
+DR-305,Jumbo Drill 305,Development 3,synthetic-offline-demo,2026-09-17T12:00:00Z,62.507,3.516,150.62,177.07,971.1,RUNNING,88.6,82,102,4.2,7.5,115,92,185,215
+DR-305,Jumbo Drill 305,Development 3,synthetic-offline-demo,2026-09-17T18:00:00Z,62.297,3.517,150.869,176.0,974.2,RUNNING,88.6,82,102,4.2,7.5,115,92,185,215
+DR-305,Jumbo Drill 305,Development 3,synthetic-offline-demo,2026-09-18T00:00:00Z,62.188,3.527,151.181,175.89,980.1,RUNNING,88.6,82,102,4.2,7.5,115,92,185,215
+DR-305,Jumbo Drill 305,Development 3,synthetic-offline-demo,2026-09-18T06:00:00Z,62.245,3.544,151.406,176.8,986.0,RUNNING,88.6,82,102,4.2,7.5,115,92,185,215
+DR-305,Jumbo Drill 305,Development 3,synthetic-offline-demo,2026-09-18T12:00:00Z,62.45,3.562,151.434,178.3,988.9,RUNNING,88.6,82,102,4.2,7.5,115,92,185,215
+DR-305,Jumbo Drill 305,Development 3,synthetic-offline-demo,2026-09-18T18:00:00Z,62.716,3.575,151.253,179.64,987.6,RUNNING,88.6,82,102,4.2,7.5,115,92,185,215
+DR-305,Jumbo Drill 305,Development 3,synthetic-offline-demo,2026-09-19T00:00:00Z,62.924,3.581,150.949,180.2,982.5,RUNNING,88.6,82,102,4.2,7.5,115,92,185,215
+DR-305,Jumbo Drill 305,Development 3,synthetic-offline-demo,2026-09-19T06:00:00Z,62.986,3.578,150.67,179.69,976.3,RUNNING,88.6,82,102,4.2,7.5,115,92,185,215
+DR-305,Jumbo Drill 305,Development 3,synthetic-offline-demo,2026-09-19T12:00:00Z,62.882,3.571,150.55,178.37,971.8,RUNNING,88.6,82,102,4.2,7.5,115,92,185,215
+DR-305,Jumbo Drill 305,Development 3,synthetic-offline-demo,2026-09-19T18:00:00Z,62.672,3.567,150.648,176.86,971.3,RUNNING,88.6,82,102,4.2,7.5,115,92,185,215
+DR-305,Jumbo Drill 305,Development 3,synthetic-offline-demo,2026-09-20T00:00:00Z,62.471,3.569,150.916,175.91,975.0,RUNNING,88.6,82,102,4.2,7.5,115,92,185,215
+DR-305,Jumbo Drill 305,Development 3,synthetic-offline-demo,2026-09-20T06:00:00Z,62.385,3.58,151.224,175.97,981.1,RUNNING,88.6,82,102,4.2,7.5,115,92,185,215
+DR-305,Jumbo Drill 305,Development 3,synthetic-offline-demo,2026-09-20T12:00:00Z,62.467,3.597,151.424,177.01,986.6,RUNNING,88.6,82,102,4.2,7.5,115,92,185,215
+DR-305,Jumbo Drill 305,Development 3,synthetic-offline-demo,2026-09-20T18:00:00Z,62.688,3.615,151.419,178.53,989.0,RUNNING,88.6,82,102,4.2,7.5,115,92,185,215
+DR-305,Jumbo Drill 305,Development 3,synthetic-offline-demo,2026-09-21T00:00:00Z,62.953,3.628,151.212,179.79,987.0,RUNNING,88.6,82,102,4.2,7.5,115,92,185,215
+DR-305,Jumbo Drill 305,Development 3,synthetic-offline-demo,2026-09-21T06:00:00Z,63.144,3.632,150.902,180.19,981.6,RUNNING,88.6,82,102,4.2,7.5,115,92,185,215
+DR-305,Jumbo Drill 305,Development 3,synthetic-offline-demo,2026-09-21T12:00:00Z,63.179,3.628,150.639,179.53,975.5,RUNNING,88.6,82,102,4.2,7.5,115,92,185,215
+DR-305,Jumbo Drill 305,Development 3,synthetic-offline-demo,2026-09-21T18:00:00Z,63.053,3.621,150.551,178.13,971.5,RUNNING,88.6,82,102,4.2,7.5,115,92,185,215
+DR-305,Jumbo Drill 305,Development 3,synthetic-offline-demo,2026-09-22T00:00:00Z,62.838,3.617,150.68,176.67,971.6,RUNNING,88.6,82,102,4.2,7.5,115,92,185,215
+DR-305,Jumbo Drill 305,Development 3,synthetic-offline-demo,2026-09-22T06:00:00Z,62.647,3.621,150.963,175.85,975.8,RUNNING,88.6,82,102,4.2,7.5,115,92,185,215
+DR-305,Jumbo Drill 305,Development 3,synthetic-offline-demo,2026-09-22T12:00:00Z,62.585,3.633,151.264,176.07,982.0,RUNNING,88.6,82,102,4.2,7.5,115,92,185,215
+DR-305,Jumbo Drill 305,Development 3,synthetic-offline-demo,2026-09-22T18:00:00Z,62.692,3.651,151.438,177.22,987.3,RUNNING,88.6,82,102,4.2,7.5,115,92,185,215
+DR-305,Jumbo Drill 305,Development 3,synthetic-offline-demo,2026-09-23T00:00:00Z,62.927,3.668,151.4,178.75,989.0,RUNNING,88.6,82,102,4.2,7.5,115,92,185,215
+DR-305,Jumbo Drill 305,Development 3,synthetic-offline-demo,2026-09-23T06:00:00Z,63.188,3.68,151.168,179.92,986.4,RUNNING,88.6,82,102,4.2,7.5,115,92,185,215
+DR-305,Jumbo Drill 305,Development 3,synthetic-offline-demo,2026-09-23T12:00:00Z,63.359,3.682,150.856,180.16,980.7,RUNNING,88.6,82,102,4.2,7.5,115,92,185,215
+DR-305,Jumbo Drill 305,Development 3,synthetic-offline-demo,2026-09-23T18:00:00Z,63.369,3.678,150.613,179.35,974.7,RUNNING,88.6,82,102,4.2,7.5,115,92,185,215
+DR-305,Jumbo Drill 305,Development 3,synthetic-offline-demo,2026-09-24T00:00:00Z,63.223,3.671,150.557,177.9,971.2,RUNNING,88.6,82,102,4.2,7.5,115,92,185,215
+DR-305,Jumbo Drill 305,Development 3,synthetic-offline-demo,2026-09-24T06:00:00Z,63.004,3.668,150.715,176.49,972.0,RUNNING,88.6,82,102,4.2,7.5,115,92,185,215
+DR-305,Jumbo Drill 305,Development 3,synthetic-offline-demo,2026-09-24T12:00:00Z,62.827,3.673,151.011,175.81,976.7,RUNNING,88.6,82,102,4.2,7.5,115,92,185,215
+DR-305,Jumbo Drill 305,Development 3,synthetic-offline-demo,2026-09-24T18:00:00Z,62.789,3.687,151.302,176.19,983.0,RUNNING,88.6,82,102,4.2,7.5,115,92,185,215
+DR-305,Jumbo Drill 305,Development 3,synthetic-offline-demo,2026-09-25T00:00:00Z,62.92,3.705,151.446,177.44,987.8,RUNNING,88.6,82,102,4.2,7.5,115,92,185,215
+DR-305,Jumbo Drill 305,Development 3,synthetic-offline-demo,2026-09-25T06:00:00Z,63.167,3.721,151.375,178.97,988.8,RUNNING,88.6,82,102,4.2,7.5,115,92,185,215
+DR-305,Jumbo Drill 305,Development 3,synthetic-offline-demo,2026-09-25T12:00:00Z,63.421,3.731,151.123,180.02,985.6,RUNNING,88.6,82,102,4.2,7.5,115,92,185,215
+DR-305,Jumbo Drill 305,Development 3,synthetic-offline-demo,2026-09-25T18:00:00Z,63.571,3.733,150.811,180.1,979.7,RUNNING,88.6,82,102,4.2,7.5,115,92,185,215
+DR-305,Jumbo Drill 305,Development 3,synthetic-offline-demo,2026-09-26T00:00:00Z,63.555,3.728,150.59,179.16,973.9,RUNNING,88.6,82,102,4.2,7.5,115,92,185,215
+DR-305,Jumbo Drill 305,Development 3,synthetic-offline-demo,2026-09-26T06:00:00Z,63.391,3.721,150.568,177.66,971.1,RUNNING,88.6,82,102,4.2,7.5,115,92,185,215
+DR-305,Jumbo Drill 305,Development 3,synthetic-offline-demo,2026-09-26T12:00:00Z,63.171,3.719,150.754,176.33,972.5,RUNNING,88.6,82,102,4.2,7.5,115,92,185,215
+DR-305,Jumbo Drill 305,Development 3,synthetic-offline-demo,2026-09-26T18:00:00Z,63.01,3.726,151.059,175.8,977.6,RUNNING,88.6,82,102,4.2,7.5,115,92,185,215
+DR-305,Jumbo Drill 305,Development 3,synthetic-offline-demo,2026-09-27T00:00:00Z,62.998,3.74,151.336,176.34,983.8,RUNNING,88.6,82,102,4.2,7.5,115,92,185,215
+DR-305,Jumbo Drill 305,Development 3,synthetic-offline-demo,2026-09-27T06:00:00Z,63.151,3.758,151.45,177.68,988.2,RUNNING,88.6,82,102,4.2,7.5,115,92,185,215
+DR-305,Jumbo Drill 305,Development 3,synthetic-offline-demo,2026-09-27T12:00:00Z,63.407,3.774,151.347,179.17,988.6,RUNNING,88.6,82,102,4.2,7.5,115,92,185,215
+DR-305,Jumbo Drill 305,Development 3,synthetic-offline-demo,2026-09-27T18:00:00Z,63.652,3.783,151.076,180.1,984.9,RUNNING,88.6,82,102,4.2,7.5,115,92,185,215
+DR-305,Jumbo Drill 305,Development 3,synthetic-offline-demo,2026-09-28T00:00:00Z,63.779,3.783,150.769,180.02,978.7,RUNNING,88.6,82,102,4.2,7.5,115,92,185,215
+DR-305,Jumbo Drill 305,Development 3,synthetic-offline-demo,2026-09-28T06:00:00Z,63.737,3.778,150.573,178.96,973.2,RUNNING,88.6,82,102,4.2,7.5,115,92,185,215
+DR-305,Jumbo Drill 305,Development 3,synthetic-offline-demo,2026-09-28T12:00:00Z,63.558,3.771,150.584,177.43,971.0,RUNNING,88.6,82,102,4.2,7.5,115,92,185,215
+DR-305,Jumbo Drill 305,Development 3,synthetic-offline-demo,2026-09-28T18:00:00Z,63.339,3.771,150.796,176.19,973.1,RUNNING,88.6,82,102,4.2,7.5,115,92,185,215
+DR-305,Jumbo Drill 305,Development 3,synthetic-offline-demo,2026-09-29T00:00:00Z,63.196,3.778,151.106,175.81,978.6,RUNNING,88.6,82,102,4.2,7.5,115,92,185,215
+DR-305,Jumbo Drill 305,Development 3,synthetic-offline-demo,2026-09-29T06:00:00Z,63.21,3.794,151.366,176.5,984.7,RUNNING,88.6,82,102,4.2,7.5,115,92,185,215
+DR-305,Jumbo Drill 305,Development 3,synthetic-offline-demo,2026-09-29T12:00:00Z,63.385,3.812,151.448,177.91,988.6,RUNNING,88.6,82,102,4.2,7.5,115,92,185,215
+DR-305,Jumbo Drill 305,Development 3,synthetic-offline-demo,2026-09-29T18:00:00Z,63.646,3.827,151.314,179.36,988.3,RUNNING,88.6,82,102,4.2,7.5,115,92,185,215
+CR-401,Underground Crusher 401,Ore handling,synthetic-offline-demo,2026-09-01T00:00:00Z,70.07,3.416,158.304,311.42,728.2,RUNNING,93.1,88,108,4.5,8.0,110,88,190,220
+CR-401,Underground Crusher 401,Ore handling,synthetic-offline-demo,2026-09-01T06:00:00Z,70.306,3.425,158.014,312.17,723.8,RUNNING,93.1,88,108,4.5,8.0,110,88,190,220
+CR-401,Underground Crusher 401,Ore handling,synthetic-offline-demo,2026-09-01T12:00:00Z,70.41,3.425,157.718,311.88,717.5,RUNNING,93.1,88,108,4.5,8.0,110,88,190,220
+CR-401,Underground Crusher 401,Ore handling,synthetic-offline-demo,2026-09-01T18:00:00Z,70.344,3.421,157.557,310.67,712.5,RUNNING,93.1,88,108,4.5,8.0,110,88,190,220
+CR-401,Underground Crusher 401,Ore handling,synthetic-offline-demo,2026-09-02T00:00:00Z,70.155,3.417,157.611,309.15,711.1,RUNNING,93.1,88,108,4.5,8.0,110,88,190,220
+CR-401,Underground Crusher 401,Ore handling,synthetic-offline-demo,2026-09-02T06:00:00Z,69.95,3.42,157.853,308.03,714.0,RUNNING,93.1,88,108,4.5,8.0,110,88,190,220
+CR-401,Underground Crusher 401,Ore handling,synthetic-offline-demo,2026-09-02T12:00:00Z,69.841,3.431,158.166,307.87,719.8,RUNNING,93.1,88,108,4.5,8.0,110,88,190,220
+CR-401,Underground Crusher 401,Ore handling,synthetic-offline-demo,2026-09-02T18:00:00Z,69.896,3.449,158.398,308.73,725.7,RUNNING,93.1,88,108,4.5,8.0,110,88,190,220
+CR-401,Underground Crusher 401,Ore handling,synthetic-offline-demo,2026-09-03T00:00:00Z,70.103,3.469,158.439,310.21,728.9,RUNNING,93.1,88,108,4.5,8.0,110,88,190,220
+CR-401,Underground Crusher 401,Ore handling,synthetic-offline-demo,2026-09-03T06:00:00Z,70.376,3.484,158.267,311.59,727.7,RUNNING,93.1,88,108,4.5,8.0,110,88,190,220
+CR-401,Underground Crusher 401,Ore handling,synthetic-offline-demo,2026-09-03T12:00:00Z,70.598,3.492,157.966,312.2,722.9,RUNNING,93.1,88,108,4.5,8.0,110,88,190,220
+CR-401,Underground Crusher 401,Ore handling,synthetic-offline-demo,2026-09-03T18:00:00Z,70.676,3.491,157.682,311.74,716.6,RUNNING,93.1,88,108,4.5,8.0,110,88,190,220
+CR-401,Underground Crusher 401,Ore handling,synthetic-offline-demo,2026-09-04T00:00:00Z,70.587,3.487,157.551,310.45,712.0,RUNNING,93.1,88,108,4.5,8.0,110,88,190,220
+CR-401,Underground Crusher 401,Ore handling,synthetic-offline-demo,2026-09-04T06:00:00Z,70.388,3.483,157.638,308.94,711.2,RUNNING,93.1,88,108,4.5,8.0,110,88,190,220
+CR-401,Underground Crusher 401,Ore handling,synthetic-offline-demo,2026-09-04T12:00:00Z,70.19,3.487,157.899,307.94,714.7,RUNNING,93.1,88,108,4.5,8.0,110,88,190,220
+CR-401,Underground Crusher 401,Ore handling,synthetic-offline-demo,2026-09-04T18:00:00Z,70.104,3.499,158.209,307.94,720.8,RUNNING,93.1,88,108,4.5,8.0,110,88,190,220
+CR-401,Underground Crusher 401,Ore handling,synthetic-offline-demo,2026-09-05T00:00:00Z,70.184,3.518,158.418,308.93,726.4,RUNNING,93.1,88,108,4.5,8.0,110,88,190,220
+CR-401,Underground Crusher 401,Ore handling,synthetic-offline-demo,2026-09-05T06:00:00Z,70.408,3.538,158.425,310.44,729.0,RUNNING,93.1,88,108,4.5,8.0,110,88,190,220
+CR-401,Underground Crusher 401,Ore handling,synthetic-offline-demo,2026-09-05T12:00:00Z,70.681,3.552,158.227,311.74,727.2,RUNNING,93.1,88,108,4.5,8.0,110,88,190,220
+CR-401,Underground Crusher 401,Ore handling,synthetic-offline-demo,2026-09-05T18:00:00Z,70.886,3.559,157.919,312.2,721.9,RUNNING,93.1,88,108,4.5,8.0,110,88,190,220
+CR-401,Underground Crusher 401,Ore handling,synthetic-offline-demo,2026-09-06T00:00:00Z,70.938,3.557,157.65,311.59,715.7,RUNNING,93.1,88,108,4.5,8.0,110,88,190,220
+CR-401,Underground Crusher 401,Ore handling,synthetic-offline-demo,2026-09-06T06:00:00Z,70.827,3.552,157.55,310.22,711.6,RUNNING,93.1,88,108,4.5,8.0,110,88,190,220
+CR-401,Underground Crusher 401,Ore handling,synthetic-offline-demo,2026-09-06T12:00:00Z,70.621,3.55,157.668,308.74,711.5,RUNNING,93.1,88,108,4.5,8.0,110,88,190,220
+CR-401,Underground Crusher 401,Ore handling,synthetic-offline-demo,2026-09-06T18:00:00Z,70.434,3.555,157.946,307.87,715.5,RUNNING,93.1,88,108,4.5,8.0,110,88,190,220
+CR-401,Underground Crusher 401,Ore handling,synthetic-offline-demo,2026-09-07T00:00:00Z,70.37,3.568,158.251,308.03,721.7,RUNNING,93.1,88,108,4.5,8.0,110,88,190,220
+CR-401,Underground Crusher 401,Ore handling,synthetic-offline-demo,2026-09-07T06:00:00Z,70.476,3.588,158.434,309.14,727.1,RUNNING,93.1,88,108,4.5,8.0,110,88,190,220
+CR-401,Underground Crusher 401,Ore handling,synthetic-offline-demo,2026-09-07T12:00:00Z,70.714,3.607,158.407,310.67,729.0,RUNNING,93.1,88,108,4.5,8.0,110,88,190,220
+CR-401,Underground Crusher 401,Ore handling,synthetic-offline-demo,2026-09-07T18:00:00Z,70.984,3.62,158.184,311.88,726.6,RUNNING,93.1,88,108,4.5,8.0,110,88,190,220
+CR-401,Underground Crusher 401,Ore handling,synthetic-offline-demo,2026-09-08T00:00:00Z,71.17,3.625,157.872,312.17,721.0,RUNNING,93.1,88,108,4.5,8.0,110,88,190,220
+CR-401,Underground Crusher 401,Ore handling,synthetic-offline-demo,2026-09-08T06:00:00Z,71.196,3.623,157.622,311.42,714.9,RUNNING,93.1,88,108,4.5,8.0,110,88,190,220
+CR-401,Underground Crusher 401,Ore handling,synthetic-offline-demo,2026-09-08T12:00:00Z,71.065,3.618,157.554,309.98,711.3,RUNNING,93.1,88,108,4.5,8.0,110,88,190,220
+CR-401,Underground Crusher 401,Ore handling,synthetic-offline-demo,2026-09-08T18:00:00Z,70.854,3.616,157.702,308.55,711.9,RUNNING,93.1,88,108,4.5,8.0,110,88,190,220
+CR-401,Underground Crusher 401,Ore handling,synthetic-offline-demo,2026-09-09T00:00:00Z,70.68,3.623,157.994,307.82,716.4,RUNNING,93.1,88,108,4.5,8.0,110,88,190,220
+CR-401,Underground Crusher 401,Ore handling,synthetic-offline-demo,2026-09-09T06:00:00Z,70.641,3.637,158.289,308.15,722.6,RUNNING,93.1,88,108,4.5,8.0,110,88,190,220
+CR-401,Underground Crusher 401,Ore handling,synthetic-offline-demo,2026-09-09T12:00:00Z,70.771,3.657,158.444,309.37,727.6,RUNNING,93.1,88,108,4.5,8.0,110,88,190,220
+CR-401,Underground Crusher 401,Ore handling,synthetic-offline-demo,2026-09-09T18:00:00Z,71.021,3.676,158.384,310.89,728.9,RUNNING,93.1,88,108,4.5,8.0,110,88,190,220
+CR-401,Underground Crusher 401,Ore handling,synthetic-offline-demo,2026-09-10T00:00:00Z,71.285,3.688,158.139,311.99,725.9,RUNNING,93.1,88,108,4.5,8.0,110,88,190,220
+CR-401,Underground Crusher 401,Ore handling,synthetic-offline-demo,2026-09-10T06:00:00Z,71.45,3.692,157.827,312.12,720.0,RUNNING,93.1,88,108,4.5,8.0,110,88,190,220
+CR-401,Underground Crusher 401,Ore handling,synthetic-offline-demo,2026-09-10T12:00:00Z,71.451,3.688,157.598,311.23,714.2,RUNNING,93.1,88,108,4.5,8.0,110,88,190,220
+CR-401,Underground Crusher 401,Ore handling,synthetic-offline-demo,2026-09-10T18:00:00Z,71.301,3.684,157.563,309.75,711.1,RUNNING,93.1,88,108,4.5,8.0,110,88,190,220
+CR-401,Underground Crusher 401,Ore handling,synthetic-offline-demo,2026-09-11T00:00:00Z,71.088,3.683,157.74,308.38,712.4,RUNNING,93.1,88,108,4.5,8.0,110,88,190,220
+CR-401,Underground Crusher 401,Ore handling,synthetic-offline-demo,2026-09-11T06:00:00Z,70.929,3.691,158.042,307.8,717.3,RUNNING,93.1,88,108,4.5,8.0,110,88,190,220
+CR-401,Underground Crusher 401,Ore handling,synthetic-offline-demo,2026-09-11T12:00:00Z,70.915,3.706,158.324,308.28,723.5,RUNNING,93.1,88,108,4.5,8.0,110,88,190,220
+CR-401,Underground Crusher 401,Ore handling,synthetic-offline-demo,2026-09-11T18:00:00Z,71.068,3.726,158.449,309.59,728.1,RUNNING,93.1,88,108,4.5,8.0,110,88,190,220
+CR-401,Underground Crusher 401,Ore handling,synthetic-offline-demo,2026-09-12T00:00:00Z,71.328,3.744,158.357,311.1,728.7,RUNNING,93.1,88,108,4.5,8.0,110,88,190,220
+CR-401,Underground Crusher 401,Ore handling,synthetic-offline-demo,2026-09-12T06:00:00Z,71.584,3.755,158.093,312.08,725.1,RUNNING,93.1,88,108,4.5,8.0,110,88,190,220
+CR-401,Underground Crusher 401,Ore handling,synthetic-offline-demo,2026-09-12T12:00:00Z,71.727,3.758,157.783,312.05,719.1,RUNNING,93.1,88,108,4.5,8.0,110,88,190,220
+CR-401,Underground Crusher 401,Ore handling,synthetic-offline-demo,2026-09-12T18:00:00Z,71.702,3.754,157.579,311.03,713.5,RUNNING,93.1,88,108,4.5,8.0,110,88,190,220
+CR-401,Underground Crusher 401,Ore handling,synthetic-offline-demo,2026-09-13T00:00:00Z,71.536,3.75,157.578,309.51,711.0,RUNNING,93.1,88,108,4.5,8.0,110,88,190,220
+CR-401,Underground Crusher 401,Ore handling,synthetic-offline-demo,2026-09-13T06:00:00Z,71.323,3.75,157.781,308.23,712.9,RUNNING,93.1,88,108,4.5,8.0,110,88,190,220
+CR-401,Underground Crusher 401,Ore handling,synthetic-offline-demo,2026-09-13T12:00:00Z,71.182,3.759,158.09,307.81,718.2,RUNNING,93.1,88,108,4.5,8.0,110,88,190,220
+CR-401,Underground Crusher 401,Ore handling,synthetic-offline-demo,2026-09-13T18:00:00Z,71.194,3.776,158.356,308.44,724.4,RUNNING,93.1,88,108,4.5,8.0,110,88,190,220
+CR-401,Underground Crusher 401,Ore handling,synthetic-offline-demo,2026-09-14T00:00:00Z,71.368,3.796,158.449,309.83,728.5,RUNNING,93.1,88,108,4.5,8.0,110,88,190,220
+CR-401,Underground Crusher 401,Ore handling,synthetic-offline-demo,2026-09-14T06:00:00Z,71.636,3.813,158.326,311.3,728.4,RUNNING,93.1,88,108,4.5,8.0,110,88,190,220
+CR-401,Underground Crusher 401,Ore handling,synthetic-offline-demo,2026-09-14T12:00:00Z,71.881,3.823,158.045,312.14,724.3,RUNNING,93.1,88,108,4.5,8.0,110,88,190,220
+CR-401,Underground Crusher 401,Ore handling,synthetic-offline-demo,2026-09-14T18:00:00Z,72.0,3.824,157.742,311.95,718.1,RUNNING,93.1,88,108,4.5,8.0,110,88,190,220
+CR-401,Underground Crusher 401,Ore handling,synthetic-offline-demo,2026-09-15T00:00:00Z,71.95,3.82,157.564,310.82,712.8,RUNNING,93.1,88,108,4.5,8.0,110,88,190,220
+CR-401,Underground Crusher 401,Ore handling,synthetic-offline-demo,2026-09-15T06:00:00Z,71.769,3.816,157.596,309.29,711.0,RUNNING,93.1,88,108,4.5,8.0,110,88,190,220
+CR-401,Underground Crusher 401,Ore handling,synthetic-offline-demo,2026-09-15T12:00:00Z,71.56,3.817,157.824,308.1,713.5,RUNNING,93.1,88,108,4.5,8.0,110,88,190,220
+CR-401,Underground Crusher 401,Ore handling,synthetic-offline-demo,2026-09-15T18:00:00Z,71.438,3.827,158.136,307.83,719.2,RUNNING,93.1,88,108,4.5,8.0,110,88,190,220
+CR-401,Underground Crusher 401,Ore handling,synthetic-offline-demo,2026-09-16T00:00:00Z,71.476,3.845,158.383,308.61,725.2,RUNNING,93.1,88,108,4.5,8.0,110,88,190,220
+CR-401,Underground Crusher 401,Ore handling,synthetic-offline-demo,2026-09-16T06:00:00Z,71.671,3.865,158.444,310.06,728.7,RUNNING,93.1,88,108,4.5,8.0,110,88,190,220
+CR-401,Underground Crusher 401,Ore handling,synthetic-offline-demo,2026-09-16T12:00:00Z,71.942,3.881,158.291,311.48,728.0,RUNNING,93.1,88,108,4.5,8.0,110,88,190,220
+CR-401,Underground Crusher 401,Ore handling,synthetic-offline-demo,2026-09-16T18:00:00Z,72.174,3.89,157.997,312.18,723.5,RUNNING,93.1,88,108,4.5,8.0,110,88,190,220
+CR-401,Underground Crusher 401,Ore handling,synthetic-offline-demo,2026-09-17T00:00:00Z,72.269,3.89,157.705,311.83,717.2,RUNNING,93.1,88,108,4.5,8.0,110,88,190,220
+CR-401,Underground Crusher 401,Ore handling,synthetic-offline-demo,2026-09-17T06:00:00Z,72.195,3.885,157.555,310.6,712.3,RUNNING,93.1,88,108,4.5,8.0,110,88,190,220
+CR-401,Underground Crusher 401,Ore handling,synthetic-offline-demo,2026-09-17T12:00:00Z,72.002,3.882,157.62,309.07,711.1,RUNNING,93.1,88,108,4.5,8.0,110,88,190,220
+CR-401,Underground Crusher 401,Ore handling,synthetic-offline-demo,2026-09-17T18:00:00Z,71.799,3.885,157.869,308.0,714.2,RUNNING,93.1,88,108,4.5,8.0,110,88,190,220
+CR-401,Underground Crusher 401,Ore handling,synthetic-offline-demo,2026-09-18T00:00:00Z,71.698,3.896,158.181,307.89,720.1,RUNNING,93.1,88,108,4.5,8.0,110,88,190,220
+CR-401,Underground Crusher 401,Ore handling,synthetic-offline-demo,2026-09-18T06:00:00Z,71.762,3.914,158.406,308.8,726.0,RUNNING,93.1,88,108,4.5,8.0,110,88,190,220
+CR-401,Underground Crusher 401,Ore handling,synthetic-offline-demo,2026-09-18T12:00:00Z,71.975,3.934,158.434,310.3,728.9,RUNNING,93.1,88,108,4.5,8.0,110,88,190,220
+CR-401,Underground Crusher 401,Ore handling,synthetic-offline-demo,2026-09-18T18:00:00Z,72.248,3.95,158.253,311.64,727.6,RUNNING,93.1,88,108,4.5,8.0,110,88,190,220
+CR-401,Underground Crusher 401,Ore handling,synthetic-offline-demo,2026-09-19T00:00:00Z,72.464,3.957,157.949,312.2,722.5,RUNNING,93.1,88,108,4.5,8.0,110,88,190,220
+CR-401,Underground Crusher 401,Ore handling,synthetic-offline-demo,2026-09-19T06:00:00Z,72.533,3.956,157.67,311.69,716.3,RUNNING,93.1,88,108,4.5,8.0,110,88,190,220
+CR-401,Underground Crusher 401,Ore handling,synthetic-offline-demo,2026-09-19T12:00:00Z,72.437,3.951,157.55,310.37,711.8,RUNNING,93.1,88,108,4.5,8.0,110,88,190,220
+CR-401,Underground Crusher 401,Ore handling,synthetic-offline-demo,2026-09-19T18:00:00Z,72.235,3.948,157.648,308.86,711.3,RUNNING,93.1,88,108,4.5,8.0,110,88,190,220
+CR-401,Underground Crusher 401,Ore handling,synthetic-offline-demo,2026-09-20T00:00:00Z,72.041,3.952,157.916,307.91,715.0,RUNNING,93.1,88,108,4.5,8.0,110,88,190,220
+CR-401,Underground Crusher 401,Ore handling,synthetic-offline-demo,2026-09-20T06:00:00Z,71.962,3.965,158.224,307.97,721.1,RUNNING,93.1,88,108,4.5,8.0,110,88,190,220
+CR-401,Underground Crusher 401,Ore handling,synthetic-offline-demo,2026-09-20T12:00:00Z,72.052,3.984,158.424,309.01,726.6,RUNNING,93.1,88,108,4.5,8.0,110,88,190,220
+CR-401,Underground Crusher 401,Ore handling,synthetic-offline-demo,2026-09-20T18:00:00Z,72.28,4.003,158.419,310.53,729.0,RUNNING,93.1,88,108,4.5,8.0,110,88,190,220
+CR-401,Underground Crusher 401,Ore handling,synthetic-offline-demo,2026-09-21T00:00:00Z,72.553,4.018,158.212,311.79,727.0,RUNNING,93.1,88,108,4.5,8.0,110,88,190,220
+CR-401,Underground Crusher 401,Ore handling,synthetic-offline-demo,2026-09-21T06:00:00Z,72.751,4.023,157.902,312.19,721.6,RUNNING,93.1,88,108,4.5,8.0,110,88,190,220
+CR-401,Underground Crusher 401,Ore handling,synthetic-offline-demo,2026-09-21T12:00:00Z,72.794,4.022,157.639,311.53,715.5,RUNNING,93.1,88,108,4.5,8.0,110,88,190,220
+CR-401,Underground Crusher 401,Ore handling,synthetic-offline-demo,2026-09-21T18:00:00Z,72.676,4.017,157.551,310.13,711.5,RUNNING,93.1,88,108,4.5,8.0,110,88,190,220
+CR-401,Underground Crusher 401,Ore handling,synthetic-offline-demo,2026-09-22T00:00:00Z,72.468,4.014,157.68,308.67,711.6,RUNNING,93.1,88,108,4.5,8.0,110,88,190,220
+CR-401,Underground Crusher 401,Ore handling,synthetic-offline-demo,2026-09-22T06:00:00Z,72.285,4.02,157.963,307.85,715.8,RUNNING,93.1,88,108,4.5,8.0,110,88,190,220
+CR-401,Underground Crusher 401,Ore handling,synthetic-offline-demo,2026-09-22T12:00:00Z,72.23,4.034,158.264,308.07,722.0,RUNNING,93.1,88,108,4.5,8.0,110,88,190,220
+CR-401,Underground Crusher 401,Ore handling,synthetic-offline-demo,2026-09-22T18:00:00Z,72.344,4.053,158.438,309.22,727.3,RUNNING,93.1,88,108,4.5,8.0,110,88,190,220
+CR-401,Underground Crusher 401,Ore handling,synthetic-offline-demo,2026-09-23T00:00:00Z,72.587,4.072,158.4,310.75,729.0,RUNNING,93.1,88,108,4.5,8.0,110,88,190,220
+CR-401,Underground Crusher 401,Ore handling,synthetic-offline-demo,2026-09-23T06:00:00Z,72.855,4.085,158.168,311.92,726.4,RUNNING,93.1,88,108,4.5,8.0,110,88,190,220
+CR-401,Underground Crusher 401,Ore handling,synthetic-offline-demo,2026-09-23T12:00:00Z,73.034,4.09,157.856,312.16,720.7,RUNNING,93.1,88,108,4.5,8.0,110,88,190,220
+CR-401,Underground Crusher 401,Ore handling,synthetic-offline-demo,2026-09-23T18:00:00Z,73.051,4.087,157.613,311.35,714.7,RUNNING,93.1,88,108,4.5,8.0,110,88,190,220
+CR-401,Underground Crusher 401,Ore handling,synthetic-offline-demo,2026-09-24T00:00:00Z,72.913,4.082,157.557,309.9,711.2,RUNNING,93.1,88,108,4.5,8.0,110,88,190,220
+CR-401,Underground Crusher 401,Ore handling,synthetic-offline-demo,2026-09-24T06:00:00Z,72.701,4.081,157.715,308.49,712.0,RUNNING,93.1,88,108,4.5,8.0,110,88,190,220
+CR-401,Underground Crusher 401,Ore handling,synthetic-offline-demo,2026-09-24T12:00:00Z,72.532,4.088,158.011,307.81,716.7,RUNNING,93.1,88,108,4.5,8.0,110,88,190,220
+CR-401,Underground Crusher 401,Ore handling,synthetic-offline-demo,2026-09-24T18:00:00Z,72.502,4.103,158.302,308.19,723.0,RUNNING,93.1,88,108,4.5,8.0,110,88,190,220
+CR-401,Underground Crusher 401,Ore handling,synthetic-offline-demo,2026-09-25T00:00:00Z,72.64,4.123,158.446,309.44,727.8,RUNNING,93.1,88,108,4.5,8.0,110,88,190,220
+CR-401,Underground Crusher 401,Ore handling,synthetic-offline-demo,2026-09-25T06:00:00Z,72.894,4.141,158.375,310.97,728.8,RUNNING,93.1,88,108,4.5,8.0,110,88,190,220
+CR-401,Underground Crusher 401,Ore handling,synthetic-offline-demo,2026-09-25T12:00:00Z,73.156,4.153,158.123,312.02,725.6,RUNNING,93.1,88,108,4.5,8.0,110,88,190,220
+CR-401,Underground Crusher 401,Ore handling,synthetic-offline-demo,2026-09-25T18:00:00Z,73.313,4.156,157.811,312.1,719.7,RUNNING,93.1,88,108,4.5,8.0,110,88,190,220
+CR-401,Underground Crusher 401,Ore handling,synthetic-offline-demo,2026-09-26T00:00:00Z,73.305,4.153,157.59,311.16,713.9,RUNNING,93.1,88,108,4.5,8.0,110,88,190,220
+CR-401,Underground Crusher 401,Ore handling,synthetic-offline-demo,2026-09-26T06:00:00Z,73.149,4.148,157.568,309.66,711.1,RUNNING,93.1,88,108,4.5,8.0,110,88,190,220
+CR-401,Underground Crusher 401,Ore handling,synthetic-offline-demo,2026-09-26T12:00:00Z,72.936,4.148,157.754,308.33,712.5,RUNNING,93.1,88,108,4.5,8.0,110,88,190,220
+CR-401,Underground Crusher 401,Ore handling,synthetic-offline-demo,2026-09-26T18:00:00Z,72.782,4.156,158.059,307.8,717.6,RUNNING,93.1,88,108,4.5,8.0,110,88,190,220
+CR-401,Underground Crusher 401,Ore handling,synthetic-offline-demo,2026-09-27T00:00:00Z,72.778,4.172,158.336,308.34,723.8,RUNNING,93.1,88,108,4.5,8.0,110,88,190,220
+CR-401,Underground Crusher 401,Ore handling,synthetic-offline-demo,2026-09-27T06:00:00Z,72.939,4.192,158.45,309.68,728.2,RUNNING,93.1,88,108,4.5,8.0,110,88,190,220
+CR-401,Underground Crusher 401,Ore handling,synthetic-offline-demo,2026-09-27T12:00:00Z,73.202,4.21,158.347,311.17,728.6,RUNNING,93.1,88,108,4.5,8.0,110,88,190,220
+CR-401,Underground Crusher 401,Ore handling,synthetic-offline-demo,2026-09-27T18:00:00Z,73.454,4.22,158.076,312.1,724.9,RUNNING,93.1,88,108,4.5,8.0,110,88,190,220
+CR-401,Underground Crusher 401,Ore handling,synthetic-offline-demo,2026-09-28T00:00:00Z,73.589,4.222,157.769,312.02,718.7,RUNNING,93.1,88,108,4.5,8.0,110,88,190,220
+CR-401,Underground Crusher 401,Ore handling,synthetic-offline-demo,2026-09-28T06:00:00Z,73.555,4.218,157.573,310.96,713.2,RUNNING,93.1,88,108,4.5,8.0,110,88,190,220
+CR-401,Underground Crusher 401,Ore handling,synthetic-offline-demo,2026-09-28T12:00:00Z,73.383,4.214,157.584,309.43,711.0,RUNNING,93.1,88,108,4.5,8.0,110,88,190,220
+CR-401,Underground Crusher 401,Ore handling,synthetic-offline-demo,2026-09-28T18:00:00Z,73.171,4.215,157.796,308.19,713.1,RUNNING,93.1,88,108,4.5,8.0,110,88,190,220
+CR-401,Underground Crusher 401,Ore handling,synthetic-offline-demo,2026-09-29T00:00:00Z,73.036,4.224,158.106,307.81,718.6,RUNNING,93.1,88,108,4.5,8.0,110,88,190,220
+CR-401,Underground Crusher 401,Ore handling,synthetic-offline-demo,2026-09-29T06:00:00Z,73.058,4.241,158.366,308.5,724.7,RUNNING,93.1,88,108,4.5,8.0,110,88,190,220
+CR-401,Underground Crusher 401,Ore handling,synthetic-offline-demo,2026-09-29T12:00:00Z,73.24,4.261,158.448,309.91,728.6,RUNNING,93.1,88,108,4.5,8.0,110,88,190,220
+CR-401,Underground Crusher 401,Ore handling,synthetic-offline-demo,2026-09-29T18:00:00Z,73.509,4.278,158.314,311.36,728.3,RUNNING,93.1,88,108,4.5,8.0,110,88,190,220
+VP-110,Ventilation Pump 110,Main ventilation,synthetic-offline-demo,2026-09-01T00:00:00Z,58.07,1.666,139.304,97.42,1768.2,RUNNING,97.4,80,100,3.8,7.0,112,90,175,205
+VP-110,Ventilation Pump 110,Main ventilation,synthetic-offline-demo,2026-09-01T06:00:00Z,58.285,1.669,138.907,98.17,1763.8,RUNNING,97.4,80,100,3.8,7.0,112,90,175,205
+VP-110,Ventilation Pump 110,Main ventilation,synthetic-offline-demo,2026-09-01T12:00:00Z,58.367,1.664,138.503,97.88,1757.5,RUNNING,97.4,80,100,3.8,7.0,112,90,175,205
+VP-110,Ventilation Pump 110,Main ventilation,synthetic-offline-demo,2026-09-01T18:00:00Z,58.28,1.654,138.235,96.67,1752.5,RUNNING,97.4,80,100,3.8,7.0,112,90,175,205
+VP-110,Ventilation Pump 110,Main ventilation,synthetic-offline-demo,2026-09-02T00:00:00Z,58.07,1.645,138.181,95.15,1751.1,RUNNING,97.4,80,100,3.8,7.0,112,90,175,205
+VP-110,Ventilation Pump 110,Main ventilation,synthetic-offline-demo,2026-09-02T06:00:00Z,57.844,1.642,138.315,94.03,1754.0,RUNNING,97.4,80,100,3.8,7.0,112,90,175,205
+VP-110,Ventilation Pump 110,Main ventilation,synthetic-offline-demo,2026-09-02T12:00:00Z,57.714,1.648,138.521,93.87,1759.8,RUNNING,97.4,80,100,3.8,7.0,112,90,175,205
+VP-110,Ventilation Pump 110,Main ventilation,synthetic-offline-demo,2026-09-02T18:00:00Z,57.747,1.66,138.646,94.73,1765.7,RUNNING,97.4,80,100,3.8,7.0,112,90,175,205
+VP-110,Ventilation Pump 110,Main ventilation,synthetic-offline-demo,2026-09-03T00:00:00Z,57.933,1.675,138.579,96.21,1768.9,RUNNING,97.4,80,100,3.8,7.0,112,90,175,205
+VP-110,Ventilation Pump 110,Main ventilation,synthetic-offline-demo,2026-09-03T06:00:00Z,58.184,1.685,138.299,97.59,1767.7,RUNNING,97.4,80,100,3.8,7.0,112,90,175,205
+VP-110,Ventilation Pump 110,Main ventilation,synthetic-offline-demo,2026-09-03T12:00:00Z,58.385,1.687,137.891,98.2,1762.9,RUNNING,97.4,80,100,3.8,7.0,112,90,175,205
+VP-110,Ventilation Pump 110,Main ventilation,synthetic-offline-demo,2026-09-03T18:00:00Z,58.442,1.681,137.499,97.74,1756.6,RUNNING,97.4,80,100,3.8,7.0,112,90,175,205
+VP-110,Ventilation Pump 110,Main ventilation,synthetic-offline-demo,2026-09-04T00:00:00Z,58.332,1.671,137.261,96.45,1752.0,RUNNING,97.4,80,100,3.8,7.0,112,90,175,205
+VP-110,Ventilation Pump 110,Main ventilation,synthetic-offline-demo,2026-09-04T06:00:00Z,58.112,1.662,137.24,94.94,1751.2,RUNNING,97.4,80,100,3.8,7.0,112,90,175,205
+VP-110,Ventilation Pump 110,Main ventilation,synthetic-offline-demo,2026-09-04T12:00:00Z,57.893,1.66,137.394,93.94,1754.7,RUNNING,97.4,80,100,3.8,7.0,112,90,175,205
+VP-110,Ventilation Pump 110,Main ventilation,synthetic-offline-demo,2026-09-04T18:00:00Z,57.785,1.667,137.597,93.94,1760.8,RUNNING,97.4,80,100,3.8,7.0,112,90,175,205
+VP-110,Ventilation Pump 110,Main ventilation,synthetic-offline-demo,2026-09-05T00:00:00Z,57.844,1.68,137.698,94.93,1766.4,RUNNING,97.4,80,100,3.8,7.0,112,90,175,205
+VP-110,Ventilation Pump 110,Main ventilation,synthetic-offline-demo,2026-09-05T06:00:00Z,58.047,1.694,137.598,96.44,1769.0,RUNNING,97.4,80,100,3.8,7.0,112,90,175,205
+VP-110,Ventilation Pump 110,Main ventilation,synthetic-offline-demo,2026-09-05T12:00:00Z,58.298,1.703,137.292,97.74,1767.2,RUNNING,97.4,80,100,3.8,7.0,112,90,175,205
+VP-110,Ventilation Pump 110,Main ventilation,synthetic-offline-demo,2026-09-05T18:00:00Z,58.482,1.704,136.876,98.2,1761.9,RUNNING,97.4,80,100,3.8,7.0,112,90,175,205
+VP-110,Ventilation Pump 110,Main ventilation,synthetic-offline-demo,2026-09-06T00:00:00Z,58.513,1.697,136.5,97.59,1755.7,RUNNING,97.4,80,100,3.8,7.0,112,90,175,205
+VP-110,Ventilation Pump 110,Main ventilation,synthetic-offline-demo,2026-09-06T06:00:00Z,58.381,1.687,136.293,96.22,1751.6,RUNNING,97.4,80,100,3.8,7.0,112,90,175,205
+VP-110,Ventilation Pump 110,Main ventilation,synthetic-offline-demo,2026-09-06T12:00:00Z,58.153,1.679,136.303,94.74,1751.5,RUNNING,97.4,80,100,3.8,7.0,112,90,175,205
+VP-110,Ventilation Pump 110,Main ventilation,synthetic-offline-demo,2026-09-06T18:00:00Z,57.945,1.678,136.474,93.87,1755.5,RUNNING,97.4,80,100,3.8,7.0,112,90,175,205
+VP-110,Ventilation Pump 110,Main ventilation,synthetic-offline-demo,2026-09-07T00:00:00Z,57.86,1.686,136.671,94.03,1761.7,RUNNING,97.4,80,100,3.8,7.0,112,90,175,205
+VP-110,Ventilation Pump 110,Main ventilation,synthetic-offline-demo,2026-09-07T06:00:00Z,57.945,1.7,136.746,95.14,1767.1,RUNNING,97.4,80,100,3.8,7.0,112,90,175,205
+VP-110,Ventilation Pump 110,Main ventilation,synthetic-offline-demo,2026-09-07T12:00:00Z,58.162,1.714,136.612,96.67,1769.0,RUNNING,97.4,80,100,3.8,7.0,112,90,175,205
+VP-110,Ventilation Pump 110,Main ventilation,synthetic-offline-demo,2026-09-07T18:00:00Z,58.41,1.722,136.281,97.88,1766.6,RUNNING,97.4,80,100,3.8,7.0,112,90,175,205
+VP-110,Ventilation Pump 110,Main ventilation,synthetic-offline-demo,2026-09-08T00:00:00Z,58.575,1.721,135.862,98.17,1761.0,RUNNING,97.4,80,100,3.8,7.0,112,90,175,205
+VP-110,Ventilation Pump 110,Main ventilation,synthetic-offline-demo,2026-09-08T06:00:00Z,58.58,1.713,135.504,97.42,1754.9,RUNNING,97.4,80,100,3.8,7.0,112,90,175,205
+VP-110,Ventilation Pump 110,Main ventilation,synthetic-offline-demo,2026-09-08T12:00:00Z,58.428,1.703,135.329,95.98,1751.3,RUNNING,97.4,80,100,3.8,7.0,112,90,175,205
+VP-110,Ventilation Pump 110,Main ventilation,synthetic-offline-demo,2026-09-08T18:00:00Z,58.195,1.696,135.37,94.55,1751.9,RUNNING,97.4,80,100,3.8,7.0,112,90,175,205
+VP-110,Ventilation Pump 110,Main ventilation,synthetic-offline-demo,2026-09-09T00:00:00Z,58.0,1.697,135.554,93.82,1756.4,RUNNING,97.4,80,100,3.8,7.0,112,90,175,205
+VP-110,Ventilation Pump 110,Main ventilation,synthetic-offline-demo,2026-09-09T06:00:00Z,57.94,1.706,135.741,94.15,1762.6,RUNNING,97.4,80,100,3.8,7.0,112,90,175,205
+VP-110,Ventilation Pump 110,Main ventilation,synthetic-offline-demo,2026-09-09T12:00:00Z,58.048,1.72,135.789,95.37,1767.6,RUNNING,97.4,80,100,3.8,7.0,112,90,175,205
+VP-110,Ventilation Pump 110,Main ventilation,synthetic-offline-demo,2026-09-09T18:00:00Z,58.277,1.733,135.622,96.89,1768.9,RUNNING,97.4,80,100,3.8,7.0,112,90,175,205
+VP-110,Ventilation Pump 110,Main ventilation,synthetic-offline-demo,2026-09-10T00:00:00Z,58.52,1.74,135.269,97.99,1765.9,RUNNING,97.4,80,100,3.8,7.0,112,90,175,205
+VP-110,Ventilation Pump 110,Main ventilation,synthetic-offline-demo,2026-09-10T06:00:00Z,58.664,1.738,134.849,98.12,1760.0,RUNNING,97.4,80,100,3.8,7.0,112,90,175,205
+VP-110,Ventilation Pump 110,Main ventilation,synthetic-offline-demo,2026-09-10T12:00:00Z,58.644,1.729,134.513,97.23,1754.2,RUNNING,97.4,80,100,3.8,7.0,112,90,175,205
+VP-110,Ventilation Pump 110,Main ventilation,synthetic-offline-demo,2026-09-10T18:00:00Z,58.472,1.719,134.371,95.75,1751.1,RUNNING,97.4,80,100,3.8,7.0,112,90,175,205
+VP-110,Ventilation Pump 110,Main ventilation,synthetic-offline-demo,2026-09-11T00:00:00Z,58.238,1.713,134.44,94.38,1752.4,RUNNING,97.4,80,100,3.8,7.0,112,90,175,205
+VP-110,Ventilation Pump 110,Main ventilation,synthetic-offline-demo,2026-09-11T06:00:00Z,58.058,1.715,134.635,93.8,1757.3,RUNNING,97.4,80,100,3.8,7.0,112,90,175,205
+VP-110,Ventilation Pump 110,Main ventilation,synthetic-offline-demo,2026-09-11T12:00:00Z,58.023,1.725,134.809,94.28,1763.5,RUNNING,97.4,80,100,3.8,7.0,112,90,175,205
+VP-110,Ventilation Pump 110,Main ventilation,synthetic-offline-demo,2026-09-11T18:00:00Z,58.155,1.74,134.827,95.59,1768.1,RUNNING,97.4,80,100,3.8,7.0,112,90,175,205
+VP-110,Ventilation Pump 110,Main ventilation,synthetic-offline-demo,2026-09-12T00:00:00Z,58.393,1.752,134.627,97.1,1768.7,RUNNING,97.4,80,100,3.8,7.0,112,90,175,205
+VP-110,Ventilation Pump 110,Main ventilation,synthetic-offline-demo,2026-09-12T06:00:00Z,58.628,1.758,134.255,98.08,1765.1,RUNNING,97.4,80,100,3.8,7.0,112,90,175,205
+VP-110,Ventilation Pump 110,Main ventilation,synthetic-offline-demo,2026-09-12T12:00:00Z,58.75,1.755,133.838,98.05,1759.1,RUNNING,97.4,80,100,3.8,7.0,112,90,175,205
+VP-110,Ventilation Pump 110,Main ventilation,synthetic-offline-demo,2026-09-12T18:00:00Z,58.703,1.746,133.526,97.03,1753.5,RUNNING,97.4,80,100,3.8,7.0,112,90,175,205
+VP-110,Ventilation Pump 110,Main ventilation,synthetic-offline-demo,2026-09-13T00:00:00Z,58.516,1.736,133.418,95.51,1751.0,RUNNING,97.4,80,100,3.8,7.0,112,90,175,205
+VP-110,Ventilation Pump 110,Main ventilation,synthetic-offline-demo,2026-09-13T06:00:00Z,58.282,1.731,133.513,94.23,1752.9,RUNNING,97.4,80,100,3.8,7.0,112,90,175,205
+VP-110,Ventilation Pump 110,Main ventilation,synthetic-offline-demo,2026-09-13T12:00:00Z,58.119,1.734,133.715,93.81,1758.2,RUNNING,97.4,80,100,3.8,7.0,112,90,175,205
+VP-110,Ventilation Pump 110,Main ventilation,synthetic-offline-demo,2026-09-13T18:00:00Z,58.11,1.745,133.873,94.44,1764.4,RUNNING,97.4,80,100,3.8,7.0,112,90,175,205
+VP-110,Ventilation Pump 110,Main ventilation,synthetic-offline-demo,2026-09-14T00:00:00Z,58.263,1.76,133.859,95.83,1768.5,RUNNING,97.4,80,100,3.8,7.0,112,90,175,205
+VP-110,Ventilation Pump 110,Main ventilation,synthetic-offline-demo,2026-09-14T06:00:00Z,58.509,1.771,133.629,97.3,1768.4,RUNNING,97.4,80,100,3.8,7.0,112,90,175,205
+VP-110,Ventilation Pump 110,Main ventilation,synthetic-offline-demo,2026-09-14T12:00:00Z,58.733,1.776,133.24,98.14,1764.3,RUNNING,97.4,80,100,3.8,7.0,112,90,175,205
+VP-110,Ventilation Pump 110,Main ventilation,synthetic-offline-demo,2026-09-14T18:00:00Z,58.831,1.771,132.83,97.95,1758.1,RUNNING,97.4,80,100,3.8,7.0,112,90,175,205
+VP-110,Ventilation Pump 110,Main ventilation,synthetic-offline-demo,2026-09-15T00:00:00Z,58.76,1.762,132.544,96.82,1752.8,RUNNING,97.4,80,100,3.8,7.0,112,90,175,205
+VP-110,Ventilation Pump 110,Main ventilation,synthetic-offline-demo,2026-09-15T06:00:00Z,58.558,1.752,132.469,95.29,1751.0,RUNNING,97.4,80,100,3.8,7.0,112,90,175,205
+VP-110,Ventilation Pump 110,Main ventilation,synthetic-offline-demo,2026-09-15T12:00:00Z,58.328,1.748,132.589,94.1,1753.5,RUNNING,97.4,80,100,3.8,7.0,112,90,175,205
+VP-110,Ventilation Pump 110,Main ventilation,synthetic-offline-demo,2026-09-15T18:00:00Z,58.184,1.753,132.794,93.83,1759.2,RUNNING,97.4,80,100,3.8,7.0,112,90,175,205
+VP-110,Ventilation Pump 110,Main ventilation,synthetic-offline-demo,2026-09-16T00:00:00Z,58.201,1.765,132.933,94.61,1765.2,RUNNING,97.4,80,100,3.8,7.0,112,90,175,205
+VP-110,Ventilation Pump 110,Main ventilation,synthetic-offline-demo,2026-09-16T06:00:00Z,58.375,1.779,132.887,96.06,1768.7,RUNNING,97.4,80,100,3.8,7.0,112,90,175,205
+VP-110,Ventilation Pump 110,Main ventilation,synthetic-offline-demo,2026-09-16T12:00:00Z,58.625,1.79,132.626,97.48,1768.0,RUNNING,97.4,80,100,3.8,7.0,112,90,175,205
+VP-110,Ventilation Pump 110,Main ventilation,synthetic-offline-demo,2026-09-16T18:00:00Z,58.835,1.793,132.225,98.18,1763.5,RUNNING,97.4,80,100,3.8,7.0,112,90,175,205
+VP-110,Ventilation Pump 110,Main ventilation,synthetic-offline-demo,2026-09-17T00:00:00Z,58.909,1.788,131.825,97.83,1757.2,RUNNING,97.4,80,100,3.8,7.0,112,90,175,205
+VP-110,Ventilation Pump 110,Main ventilation,synthetic-offline-demo,2026-09-17T06:00:00Z,58.813,1.778,131.567,96.6,1752.3,RUNNING,97.4,80,100,3.8,7.0,112,90,175,205
+VP-110,Ventilation Pump 110,Main ventilation,synthetic-offline-demo,2026-09-17T12:00:00Z,58.6,1.769,131.525,95.07,1751.1,RUNNING,97.4,80,100,3.8,7.0,112,90,175,205
+VP-110,Ventilation Pump 110,Main ventilation,synthetic-offline-demo,2026-09-17T18:00:00Z,58.376,1.766,131.666,94.0,1754.2,RUNNING,97.4,80,100,3.8,7.0,112,90,175,205
+VP-110,Ventilation Pump 110,Main ventilation,synthetic-offline-demo,2026-09-18T00:00:00Z,58.253,1.772,131.871,93.89,1760.1,RUNNING,97.4,80,100,3.8,7.0,112,90,175,205
+VP-110,Ventilation Pump 110,Main ventilation,synthetic-offline-demo,2026-09-18T06:00:00Z,58.296,1.785,131.988,94.8,1766.0,RUNNING,97.4,80,100,3.8,7.0,112,90,175,205
+VP-110,Ventilation Pump 110,Main ventilation,synthetic-offline-demo,2026-09-18T12:00:00Z,58.487,1.799,131.909,96.3,1768.9,RUNNING,97.4,80,100,3.8,7.0,112,90,175,205
+VP-110,Ventilation Pump 110,Main ventilation,synthetic-offline-demo,2026-09-18T18:00:00Z,58.739,1.809,131.621,97.64,1767.6,RUNNING,97.4,80,100,3.8,7.0,112,90,175,205
+VP-110,Ventilation Pump 110,Main ventilation,synthetic-offline-demo,2026-09-19T00:00:00Z,58.934,1.811,131.209,98.2,1762.5,RUNNING,97.4,80,100,3.8,7.0,112,90,175,205
+VP-110,Ventilation Pump 110,Main ventilation,synthetic-offline-demo,2026-09-19T06:00:00Z,58.982,1.804,130.823,97.69,1756.3,RUNNING,97.4,80,100,3.8,7.0,112,90,175,205
+VP-110,Ventilation Pump 110,Main ventilation,synthetic-offline-demo,2026-09-19T12:00:00Z,58.864,1.794,130.595,96.37,1751.8,RUNNING,97.4,80,100,3.8,7.0,112,90,175,205
+VP-110,Ventilation Pump 110,Main ventilation,synthetic-offline-demo,2026-09-19T18:00:00Z,58.641,1.785,130.585,94.86,1751.3,RUNNING,97.4,80,100,3.8,7.0,112,90,175,205
+VP-110,Ventilation Pump 110,Main ventilation,synthetic-offline-demo,2026-09-20T00:00:00Z,58.426,1.784,130.746,93.91,1755.0,RUNNING,97.4,80,100,3.8,7.0,112,90,175,205
+VP-110,Ventilation Pump 110,Main ventilation,synthetic-offline-demo,2026-09-20T06:00:00Z,58.326,1.791,130.947,93.97,1761.1,RUNNING,97.4,80,100,3.8,7.0,112,90,175,205
+VP-110,Ventilation Pump 110,Main ventilation,synthetic-offline-demo,2026-09-20T12:00:00Z,58.394,1.805,131.039,95.01,1766.6,RUNNING,97.4,80,100,3.8,7.0,112,90,175,205
+VP-110,Ventilation Pump 110,Main ventilation,synthetic-offline-demo,2026-09-20T18:00:00Z,58.602,1.819,130.927,96.53,1769.0,RUNNING,97.4,80,100,3.8,7.0,112,90,175,205
+VP-110,Ventilation Pump 110,Main ventilation,synthetic-offline-demo,2026-09-21T00:00:00Z,58.853,1.828,130.612,97.79,1767.0,RUNNING,97.4,80,100,3.8,7.0,112,90,175,205
+VP-110,Ventilation Pump 110,Main ventilation,synthetic-offline-demo,2026-09-21T06:00:00Z,59.03,1.828,130.194,98.19,1761.6,RUNNING,97.4,80,100,3.8,7.0,112,90,175,205
+VP-110,Ventilation Pump 110,Main ventilation,synthetic-offline-demo,2026-09-21T12:00:00Z,59.052,1.821,129.824,97.53,1755.5,RUNNING,97.4,80,100,3.8,7.0,112,90,175,205
+VP-110,Ventilation Pump 110,Main ventilation,synthetic-offline-demo,2026-09-21T18:00:00Z,58.912,1.81,129.629,96.13,1751.5,RUNNING,97.4,80,100,3.8,7.0,112,90,175,205
+VP-110,Ventilation Pump 110,Main ventilation,synthetic-offline-demo,2026-09-22T00:00:00Z,58.683,1.802,129.65,94.67,1751.6,RUNNING,97.4,80,100,3.8,7.0,112,90,175,205
+VP-110,Ventilation Pump 110,Main ventilation,synthetic-offline-demo,2026-09-22T06:00:00Z,58.479,1.802,129.826,93.85,1755.8,RUNNING,97.4,80,100,3.8,7.0,112,90,175,205
+VP-110,Ventilation Pump 110,Main ventilation,synthetic-offline-demo,2026-09-22T12:00:00Z,58.403,1.811,130.019,94.07,1762.0,RUNNING,97.4,80,100,3.8,7.0,112,90,175,205
+VP-110,Ventilation Pump 110,Main ventilation,synthetic-offline-demo,2026-09-22T18:00:00Z,58.496,1.825,130.085,95.22,1767.3,RUNNING,97.4,80,100,3.8,7.0,112,90,175,205
+VP-110,Ventilation Pump 110,Main ventilation,synthetic-offline-demo,2026-09-23T00:00:00Z,58.717,1.838,129.94,96.75,1769.0,RUNNING,97.4,80,100,3.8,7.0,112,90,175,205
+VP-110,Ventilation Pump 110,Main ventilation,synthetic-offline-demo,2026-09-23T06:00:00Z,58.964,1.846,129.601,97.92,1766.4,RUNNING,97.4,80,100,3.8,7.0,112,90,175,205
+VP-110,Ventilation Pump 110,Main ventilation,synthetic-offline-demo,2026-09-23T12:00:00Z,59.122,1.845,129.181,98.16,1760.7,RUNNING,97.4,80,100,3.8,7.0,112,90,175,205
+VP-110,Ventilation Pump 110,Main ventilation,synthetic-offline-demo,2026-09-23T18:00:00Z,59.118,1.837,128.83,97.35,1754.7,RUNNING,97.4,80,100,3.8,7.0,112,90,175,205
+VP-110,Ventilation Pump 110,Main ventilation,synthetic-offline-demo,2026-09-24T00:00:00Z,58.958,1.826,128.667,95.9,1751.2,RUNNING,97.4,80,100,3.8,7.0,112,90,175,205
+VP-110,Ventilation Pump 110,Main ventilation,synthetic-offline-demo,2026-09-24T06:00:00Z,58.725,1.82,128.718,94.49,1752.0,RUNNING,97.4,80,100,3.8,7.0,112,90,175,205
+VP-110,Ventilation Pump 110,Main ventilation,synthetic-offline-demo,2026-09-24T12:00:00Z,58.534,1.821,128.906,93.81,1756.7,RUNNING,97.4,80,100,3.8,7.0,112,90,175,205
+VP-110,Ventilation Pump 110,Main ventilation,synthetic-offline-demo,2026-09-24T18:00:00Z,58.483,1.83,129.089,94.19,1763.0,RUNNING,97.4,80,100,3.8,7.0,112,90,175,205
+VP-110,Ventilation Pump 110,Main ventilation,synthetic-offline-demo,2026-09-25T00:00:00Z,58.6,1.845,129.126,95.44,1767.8,RUNNING,97.4,80,100,3.8,7.0,112,90,175,205
+VP-110,Ventilation Pump 110,Main ventilation,synthetic-offline-demo,2026-09-25T06:00:00Z,58.833,1.858,128.948,96.97,1768.8,RUNNING,97.4,80,100,3.8,7.0,112,90,175,205
+VP-110,Ventilation Pump 110,Main ventilation,synthetic-offline-demo,2026-09-25T12:00:00Z,59.073,1.864,128.588,98.02,1765.6,RUNNING,97.4,80,100,3.8,7.0,112,90,175,205
+VP-110,Ventilation Pump 110,Main ventilation,synthetic-offline-demo,2026-09-25T18:00:00Z,59.21,1.862,128.169,98.1,1759.7,RUNNING,97.4,80,100,3.8,7.0,112,90,175,205
+VP-110,Ventilation Pump 110,Main ventilation,synthetic-offline-demo,2026-09-26T00:00:00Z,59.18,1.853,127.84,97.16,1753.9,RUNNING,97.4,80,100,3.8,7.0,112,90,175,205
+VP-110,Ventilation Pump 110,Main ventilation,synthetic-offline-demo,2026-09-26T06:00:00Z,59.003,1.843,127.71,95.66,1751.1,RUNNING,97.4,80,100,3.8,7.0,112,90,175,205
+VP-110,Ventilation Pump 110,Main ventilation,synthetic-offline-demo,2026-09-26T12:00:00Z,58.768,1.837,127.789,94.33,1752.5,RUNNING,97.4,80,100,3.8,7.0,112,90,175,205
+VP-110,Ventilation Pump 110,Main ventilation,synthetic-offline-demo,2026-09-26T18:00:00Z,58.594,1.839,127.987,93.8,1757.6,RUNNING,97.4,80,100,3.8,7.0,112,90,175,205
+VP-110,Ventilation Pump 110,Main ventilation,synthetic-offline-demo,2026-09-27T00:00:00Z,58.568,1.85,128.156,94.34,1763.8,RUNNING,97.4,80,100,3.8,7.0,112,90,175,205
+VP-110,Ventilation Pump 110,Main ventilation,synthetic-offline-demo,2026-09-27T06:00:00Z,58.707,1.864,128.162,95.68,1768.2,RUNNING,97.4,80,100,3.8,7.0,112,90,175,205
+VP-110,Ventilation Pump 110,Main ventilation,synthetic-offline-demo,2026-09-27T12:00:00Z,58.949,1.877,127.952,97.17,1768.6,RUNNING,97.4,80,100,3.8,7.0,112,90,175,205
+VP-110,Ventilation Pump 110,Main ventilation,synthetic-offline-demo,2026-09-27T18:00:00Z,59.18,1.882,127.574,98.1,1764.9,RUNNING,97.4,80,100,3.8,7.0,112,90,175,205
+VP-110,Ventilation Pump 110,Main ventilation,synthetic-offline-demo,2026-09-28T00:00:00Z,59.294,1.878,127.159,98.02,1758.7,RUNNING,97.4,80,100,3.8,7.0,112,90,175,205
+VP-110,Ventilation Pump 110,Main ventilation,synthetic-offline-demo,2026-09-28T06:00:00Z,59.238,1.869,126.855,96.96,1753.2,RUNNING,97.4,80,100,3.8,7.0,112,90,175,205
+VP-110,Ventilation Pump 110,Main ventilation,synthetic-offline-demo,2026-09-28T12:00:00Z,59.046,1.859,126.759,95.43,1751.0,RUNNING,97.4,80,100,3.8,7.0,112,90,175,205
+VP-110,Ventilation Pump 110,Main ventilation,synthetic-offline-demo,2026-09-28T18:00:00Z,58.813,1.854,126.863,94.19,1753.1,RUNNING,97.4,80,100,3.8,7.0,112,90,175,205
+VP-110,Ventilation Pump 110,Main ventilation,synthetic-offline-demo,2026-09-29T00:00:00Z,58.656,1.858,127.066,93.81,1758.6,RUNNING,97.4,80,100,3.8,7.0,112,90,175,205
+VP-110,Ventilation Pump 110,Main ventilation,synthetic-offline-demo,2026-09-29T06:00:00Z,58.656,1.87,127.218,94.5,1764.7,RUNNING,97.4,80,100,3.8,7.0,112,90,175,205
+VP-110,Ventilation Pump 110,Main ventilation,synthetic-offline-demo,2026-09-29T12:00:00Z,58.817,1.884,127.193,95.91,1768.6,RUNNING,97.4,80,100,3.8,7.0,112,90,175,205
+VP-110,Ventilation Pump 110,Main ventilation,synthetic-offline-demo,2026-09-29T18:00:00Z,59.065,1.896,126.952,97.36,1768.3,RUNNING,97.4,80,100,3.8,7.0,112,90,175,205
