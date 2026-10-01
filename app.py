@@ -108,13 +108,54 @@ def metric(label, value, note, accent="#167D64"):
     st.markdown(f'<div class="card" style="--accent:{accent}"><div class="label">{label}</div><div class="value">{value}</div><div class="note">{note}</div></div>', unsafe_allow_html=True)
 
 
+def sensor_chart(history: pd.DataFrame, sensor: str, show_legend: bool = True, height: int = 380):
+    """Draw a readable sensor trend with compact labels and a reserved legend row."""
+    chart = px.line(
+        history,
+        x="observed_at",
+        y=sensor,
+        color="asset_id",
+        hover_data={"asset_name": True, "asset_id": True, "observed_at": True},
+        labels={
+            "observed_at": "",
+            sensor: SENSOR_LABELS[sensor],
+            "asset_id": "Asset ID",
+            "asset_name": "Equipment",
+        },
+        color_discrete_sequence=["#147A63", "#D08A25", "#5374B5", "#C4554D", "#8269AE"],
+    )
+    chart.update_traces(line=dict(width=2.35), connectgaps=False)
+    chart.update_layout(
+        height=height,
+        margin=dict(l=12, r=12, t=12, b=88 if show_legend else 58),
+        paper_bgcolor="rgba(0,0,0,0)",
+        plot_bgcolor="rgba(0,0,0,0)",
+        font=dict(family="Inter, Segoe UI, Arial, sans-serif", color="#66757D", size=11),
+        showlegend=show_legend,
+        legend=dict(
+            orientation="h",
+            x=0,
+            y=-0.26,
+            xanchor="left",
+            yanchor="top",
+            title=None,
+            font=dict(family="Inter, Segoe UI, Arial, sans-serif", size=10, color="#52616A"),
+            bgcolor="rgba(0,0,0,0)",
+        ),
+        xaxis=dict(title=None, showgrid=False, tickformat="%b %d", tickfont=dict(size=10), automargin=True),
+        yaxis=dict(title=SENSOR_LABELS[sensor], gridcolor="#E7ECEA", zeroline=False, tickfont=dict(size=10), automargin=True),
+        hoverlabel=dict(font=dict(family="Inter, Segoe UI, Arial, sans-serif", size=12)),
+    )
+    return chart
+
+
 def main():
     style_app()
     with st.sidebar:
         st.markdown("<div style='font-size:1.28rem;font-weight:750;letter-spacing:.04em'>⚙ FORGE <span style='color:#73C4A4'>/</span></div>", unsafe_allow_html=True)
         st.caption("OPERATIONS INTELLIGENCE")
         st.divider()
-        page = st.radio("WORKSPACE", ["Operations overview", "Asset explorer", "Model & data notes"])
+        page = st.radio("WORKSPACE", ["Operations overview", "Asset detail", "Model & data notes"])
         st.divider()
         st.markdown("**MODEL**")
         st.caption("Isolation Forest · unsupervised anomaly detection")
@@ -156,55 +197,68 @@ def main():
         st.dataframe(pd.DataFrame(thresholds), hide_index=True, use_container_width=True)
         return
 
-    st.markdown('<div class="eyebrow">PLANT OPERATIONS / RELIABILITY</div><div class="title">Smart Production Downtime Prediction App</div><div class="subtitle">Machine learning scans asset telemetry for unusual operating conditions.</div>', unsafe_allow_html=True)
-    st.markdown('<div class="notice"><b>Interpretation:</b> This dataset has no downtime events. The model flags telemetry anomalies as an early inspection signal; it does not estimate downtime probability.</div>', unsafe_allow_html=True)
+    if page == "Asset detail":
+        st.markdown('<div class="eyebrow">ASSET INTELLIGENCE</div><div class="title">Asset condition detail</div><div class="subtitle">Review the latest condition and sensor history for an individual machine.</div>', unsafe_allow_html=True)
+        chosen = st.selectbox("Select asset", assets, format_func=lambda x: f"{x} · {latest.loc[latest.asset_id == x, 'asset_name'].iloc[0]}")
+        asset_history = data[data["asset_id"] == chosen].sort_values("observed_at")
+        asset = asset_history.iloc[-1]
+        a1, a2, a3, a4 = st.columns(4)
+        with a1: metric("Anomaly band", asset["Risk band"], "Relative to supplied telemetry", COLORS[asset["Risk band"]])
+        with a2: metric("Anomaly score", f"{asset['Anomaly score']:.3f}", "Higher values are more unusual", "#5674A5")
+        with a3: metric("Operating state", str(asset["operating_state"]).title(), "Recorded in latest row", "#167D64")
+        with a4: metric("Readings available", f"{len(asset_history):,}", "Six-hour sensor history", "#73818A")
+
+        left, right = st.columns([1.3, 1], gap="large")
+        with left:
+            st.markdown('<div class="panel-title">Sensor trend</div><div class="panel-note">Inspect movement over the available history</div>', unsafe_allow_html=True)
+            sensor = st.selectbox("Sensor", SENSORS, format_func=lambda x: SENSOR_LABELS[x], key="asset_sensor")
+            st.plotly_chart(sensor_chart(asset_history, sensor, show_legend=False, height=350), use_container_width=True, config={"displayModeBar": False})
+        with right:
+            st.markdown('<div class="panel-title">Latest readings</div><div class="panel-note">Most recent telemetry values</div>', unsafe_allow_html=True)
+            values = pd.DataFrame({"Sensor": [SENSOR_LABELS[c] for c in SENSORS], "Reading": [asset[c] for c in SENSORS]})
+            st.dataframe(values, hide_index=True, use_container_width=True, height=285, column_config={"Reading": st.column_config.NumberColumn("Reading", format="%.2f")})
+
+        st.markdown('<div class="panel-title">Recent history</div><div class="panel-note">Latest 12 samples for the selected asset</div>', unsafe_allow_html=True)
+        recent = asset_history.tail(12)[["observed_at", "operating_state", "Risk band", "Anomaly score", *SENSORS]].copy()
+        recent["observed_at"] = recent["observed_at"].dt.strftime("%Y-%m-%d %H:%M UTC")
+        st.dataframe(recent.sort_values("observed_at", ascending=False), hide_index=True, use_container_width=True, height=390, column_config={"observed_at": "Observed at", "operating_state": "State", "Risk band": "Anomaly band", "Anomaly score": st.column_config.NumberColumn("Score", format="%.4f")})
+        st.caption("Anomaly bands flag unusual telemetry and are not downtime probabilities.")
+        return
+
+    st.markdown('<div class="eyebrow">PLANT OPERATIONS / RELIABILITY</div><div class="title">Smart Production Downtime Prediction App</div><div class="subtitle">A clear view of equipment condition across the fleet.</div>', unsafe_allow_html=True)
+    st.markdown('<div class="notice"><b>Model scope:</b> This dataset has no downtime labels. The model ranks unusual sensor patterns for inspection; it does not estimate downtime probability.</div>', unsafe_allow_html=True)
     selected = st.multiselect("Filter assets", assets, default=assets, label_visibility="collapsed", placeholder="Filter assets")
+    if not selected:
+        st.info("Select at least one asset to display fleet condition.")
+        st.stop()
     current = latest[latest["asset_id"].isin(selected)]
     high_n = int((current["Risk band"] == "High").sum())
     watch_n = int((current["Risk band"] == "Watch").sum())
     r1, r2, r3, r4 = st.columns(4)
-    with r1: metric("Assets monitored", str(len(current)), "Latest reading per selected asset", "#167D64")
-    with r2: metric("High anomaly", str(high_n), "Top 3% score cutoff on training set", "#C84E42")
-    with r3: metric("Watch list", str(watch_n), "Top 10% score cutoff on training set", "#D38B26")
-    with r4: metric("Training records", f"{len(data):,}", f"{data['asset_id'].nunique()} assets · model fitted in app", "#5674A5")
+    with r1: metric("Assets monitored", str(len(current)), "Latest reading per asset", "#167D64")
+    with r2: metric("High anomaly", str(high_n), "Highest relative scores", "#C84E42")
+    with r3: metric("Watch list", str(watch_n), "Elevated relative scores", "#D38B26")
+    with r4: metric("Training records", f"{len(data):,}", f"{data['asset_id'].nunique()} assets", "#5674A5")
 
-    left, right = st.columns([1.45, 1], gap="large")
+    left, right = st.columns([1.35, 1], gap="large")
     with left:
-        st.markdown('<div class="panel-title">Sensor history</div><div class="panel-note">Choose a sensor to inspect readings over time</div>', unsafe_allow_html=True)
+        st.markdown('<div class="panel-title">Sensor history</div><div class="panel-note">Compare asset readings across the selected period</div>', unsafe_allow_html=True)
         sensor = st.selectbox("Sensor", SENSORS, format_func=lambda x: SENSOR_LABELS[x], label_visibility="collapsed")
         history = data[data["asset_id"].isin(selected)]
-        chart = px.line(history, x="observed_at", y=sensor, color="asset_name", labels={"observed_at":"Observed at", sensor:SENSOR_LABELS[sensor], "asset_name":"Asset"}, color_discrete_sequence=["#167D64", "#D38B26", "#637BC4", "#C84E42", "#8A6DB1"])
-        chart.update_layout(height=320, margin=dict(l=0,r=0,t=5,b=0), paper_bgcolor="rgba(0,0,0,0)", plot_bgcolor="rgba(0,0,0,0)", font=dict(family="DM Sans", color="#77817C", size=11), legend=dict(orientation="h", y=1.12, x=0), xaxis=dict(showgrid=False), yaxis=dict(gridcolor="#E8EBE5", zeroline=False))
-        st.plotly_chart(chart, use_container_width=True, config={"displayModeBar":False})
+        st.plotly_chart(sensor_chart(history, sensor, show_legend=True, height=385), use_container_width=True, config={"displayModeBar": False})
     with right:
-        st.markdown('<div class="panel-title">Current asset condition</div><div class="panel-note">Latest ML anomaly band for each selected asset</div>', unsafe_allow_html=True)
+        st.markdown('<div class="panel-title">Fleet condition</div><div class="panel-note">Latest anomaly band across selected assets</div>', unsafe_allow_html=True)
         mix = current["Risk band"].value_counts().reindex(["High", "Watch", "Low"], fill_value=0).rename_axis("Risk band").reset_index(name="Assets")
         donut = px.pie(mix, values="Assets", names="Risk band", hole=.72, color="Risk band", color_discrete_map=COLORS)
         donut.update_traces(textinfo="none", marker=dict(line=dict(color="white", width=3)))
-        donut.update_layout(height=320, margin=dict(l=0,r=0,t=5,b=0), paper_bgcolor="rgba(0,0,0,0)", font=dict(family="DM Sans", color="#77817C"), legend=dict(orientation="h", y=-.02, x=.0), annotations=[dict(text=f"{len(current)}<br><span style='font-size:11px;color:#77817C'>assets</span>", x=.5,y=.5,showarrow=False,font=dict(size=24,color="#17211F"))])
-        st.plotly_chart(donut, use_container_width=True, config={"displayModeBar":False})
+        donut.update_layout(height=385, margin=dict(l=8, r=8, t=12, b=60), paper_bgcolor="rgba(0,0,0,0)", font=dict(family="Inter, Segoe UI, Arial, sans-serif", color="#66757D", size=11), legend=dict(orientation="h", y=-.10, x=.5, xanchor="center", yanchor="top", font=dict(family="Inter, Segoe UI, Arial, sans-serif", size=11)), annotations=[dict(text=f"{len(current)}<br><span style='font-size:11px;color:#71808A'>assets</span>", x=.5, y=.5, showarrow=False, font=dict(size=24, color="#18252D", family="Inter, Segoe UI, Arial, sans-serif"))])
+        st.plotly_chart(donut, use_container_width=True, config={"displayModeBar": False})
 
-    st.markdown('<div class="panel-title">Asset watchlist</div><div class="panel-note">Sorted by anomaly score · high scores are unusual relative to the supplied synthetic baseline</div>', unsafe_allow_html=True)
-    display = current[["asset_id", "asset_name", "line", "observed_at", "operating_state", "Risk band", "Anomaly score", *SENSORS]].copy()
+    st.markdown('<div class="panel-title">Maintenance watchlist</div><div class="panel-note">Latest reading per asset, ranked by anomaly score</div>', unsafe_allow_html=True)
+    display = current[["asset_id", "asset_name", "line", "operating_state", "observed_at", "Risk band", "Anomaly score"]].copy()
     display["observed_at"] = display["observed_at"].dt.strftime("%Y-%m-%d %H:%M UTC")
-    st.dataframe(display, use_container_width=True, hide_index=True, height=260, column_config={"asset_id":"Asset ID", "asset_name":"Equipment", "line":"Production line", "observed_at":"Latest reading", "operating_state":"Recorded state", "Risk band":st.column_config.TextColumn("Anomaly band"), "Anomaly score":st.column_config.NumberColumn("Anomaly score", format="%.4f")})
-
-    if page == "Asset explorer" and not current.empty:
-        st.markdown('<div class="panel-title">Asset explorer</div>', unsafe_allow_html=True)
-        chosen = st.selectbox("Choose equipment", current["asset_id"].tolist(), format_func=lambda x: f"{x} · {current.loc[current.asset_id == x, 'asset_name'].iloc[0]}")
-        asset_history = data[data["asset_id"] == chosen]
-        latest_row = asset_history.iloc[-1]
-        c1, c2 = st.columns(2)
-        with c1:
-            st.write(f"**{latest_row['asset_name']}** · {latest_row['line']}")
-            st.write(f"Latest operating state: **{latest_row['operating_state']}**")
-            st.write(f"Latest anomaly band: **{latest_row['Risk band']}**")
-            st.write("Suggested action: inspect the asset and review sensor trends if its anomaly score is elevated.")
-        with c2:
-            values = pd.DataFrame({"Sensor": [SENSOR_LABELS[c] for c in SENSORS], "Latest reading": [latest_row[c] for c in SENSORS]})
-            st.dataframe(values, hide_index=True, use_container_width=True)
-
-    st.caption("Model: scikit-learn Isolation Forest trained at app startup on the included telemetry CSV. Risk bands are unsupervised anomaly rankings, not downtime probabilities.")
+    st.dataframe(display, use_container_width=True, hide_index=True, height=min(360, 46 + 38 * max(len(display), 1)), column_config={"asset_id": "Asset ID", "asset_name": "Equipment", "line": "Production line", "operating_state": "State", "observed_at": "Latest reading", "Risk band": st.column_config.TextColumn("Anomaly band"), "Anomaly score": st.column_config.NumberColumn("Score", format="%.4f")})
+    st.caption("Model: scikit-learn Isolation Forest. Risk bands rank anomalous telemetry; they are not downtime probabilities.")
 
 
 if __name__ == "__main__":
